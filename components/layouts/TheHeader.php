@@ -32,7 +32,7 @@
   <!-- START:: INCLUDING FAV ICON -->
   <link rel="icon" href="assets/pics/fav-icon.png">
   <!-- END:: INCLUDING FAV ICON -->
-  <title>Nour El Hooda</title>
+  <title>Green Arrow</title>
 </head>
 <body>
 

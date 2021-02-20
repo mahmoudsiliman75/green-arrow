@@ -34,14 +34,6 @@
     </div>
 
   </div>
-  <a class="carousel-control-prev" href="#header-slider" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#header-slider" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
 </div>
 <!-- END:: SLIDER SECTION -->
 
@@ -55,13 +47,13 @@
       </div>
 
       <div class="welcome-text col-12 col-md-6 d-flex flex-column justify-content-center align-items-center">
-        <h2 class="text-center mt-3"> Welcome To Nour El Hooda </h2>
+        <h2 class="text-center mt-3"> About Green Arrow </h2>
         <p class="my-4"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum laudantium quisquam aspernatur repellat illum eius! Impedit perspiciatis accusamus inventore animi ullam iusto ipsam, enim blanditiis magnam. Ipsum enim error fuga.
         Dolorum laudantium quisquam aspernatur repellat illum eius! Impedit perspiciatis accusamus inventore animi ullam iusto ipsam, enim blanditiis magnam. Ipsum enim error fuga. </p>
 
         <!-- BTN NAME: LEARN MORE -->
         <!-- BTN DIRECTION PAGE: AboutUs.php -->
-          <?php $link = 'AboutUs.php'; $title = 'Learn More' ?>
+          <?php $link = 'AboutUs.php'; $title = 'More' ?>
           <?php include(INC.'/ui/MainBtn.php')?>
       </div>
 
@@ -70,45 +62,100 @@
 </div>
 <!-- END:: WELCOME SECTION -->
 
-<!-- START:: INVESTOR HIGHLIGHT SECTION -->
-<div class="investor">
+<!-- START:: OUR SERVICES SECTION -->
+<div class="services">
   <div class="container">
-    <div class="row">
+    <h2 class="sec-heading mt-5"> Our Services </h2>
+    <div class="row justify-content-center">
 
-      <div class="investor-info d-flex align-items-center col-12 col-md-7 mb-5">
-        <div class="row align-items-center">
+      <div class="col-12 col-md-6 col-lg-4 my-3 p-2">
+        <div class="card">
+          <a href="ServiceDetails.php"> 
+            <img src="assets/pics/pic8.jpg" class="card-img-top" alt="...">
+          </a>
+          <div class="card-body">
+            <h4 class="card-title mb-4">Import Services</h4>
 
-          <h2 class="small-sec-heading text-center mb-5 col-12"> Our Investor Heighlights </h2>
-
-          <div class="info-icon col-4 text-center"> 
-            <img src="assets/pics/icons/chart.png" alt="">
-            <h4 class="my-2"> Title </h4>
+            <a href="ServiceDetails.php" class="hover-effect"> 
+              Read More
+            </a>
           </div>
-
-          <div class="info-icon col-4 text-center"> 
-            <img src="assets/pics/icons/idea.png" alt="">
-            <h4 class="my-2"> Title </h4>
-          </div>
-
-          <div class="info-icon col-4 text-center"> 
-            <img src="assets/pics/icons/contract.png" alt="">
-            <h4 class="my-2"> Title </h4>
-          </div>
-
         </div>
       </div>
 
-      <div class="investor-video col-12 col-md-5 text-center">
+      <div class="col-12 col-md-6 col-lg-4 my-3 p-2">
+        <div class="card">
+          <a href="ServiceDetails.php"> 
+            <img src="assets/pics/pic11.jpg" class="card-img-top" alt="...">
+          </a>
+          <div class="card-body">
+            <h4 class="card-title mb-4">Export Services</h4>
 
-        <iframe src="https://www.youtube.com/embed/8KVTpYfQzUY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <a href="ServiceDetails.php" class="hover-effect"> 
+              Read More
+            </a>
+          </div>
+        </div>
+      </div>
 
-        <div class="text-center">
-          <h4 class="text-center my-4"> Video Title Will Go Here </h4>
+      <div class="col-12 col-md-6 col-lg-4 my-3 p-2">
+        <div class="card">
+          <a href="ServiceDetails.php"> 
+            <img src="assets/pics/pic3.jpg" class="card-img-top" alt="...">
+          </a>
+          <div class="card-body">
+            <h4 class="card-title mb-4">Local Distribution</h4>
 
+            <a href="ServiceDetails.php" class="hover-effect"> 
+              Read More
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- END:: OUR SERVICES SECTION -->
+
+<!-- START:: INVESTOR HIGHLIGHT SECTION -->
+<div class="quality">
+  <div class="container">
+
+    <h2 class="sec-heading"> Quality & Certificates </h2>
+    <div class="row">
+
+      <div class="quality-info d-flex align-items-center col-12 col-md-6 mb-5">
+        <div class="row align-items-center justify-content-center">
+
+          <h2 class="text-center mb-5 col-12"> We Only Do Our Best ! </h2>
+          <p class="mb-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Harum dignissimos sequi numquam vel, quasi praesentium deleniti ducimus nostrum. 
+            Assumenda molestiae officiis harum saepe eius sint omnis tempora architecto sit esse.
+          </p>
           <!-- BTN NAME: VIEW MORE VIDEOS -->
           <!-- BTN DIRECTION PAGE: VideosLiberary.php -->
-          <?php $link = 'index.php'; $title = 'View More Videos' ?>
+          <?php $link = 'index.php'; $title = 'Learn More' ?>
           <?php include(INC.'/ui/MainBtn.php')?>
+        </div>
+      </div>
+
+      <div class="certificates col-12 col-md-6 row">
+        <div class="img-box col-12 col-md-6 p-2">
+          <img src="assets/pics/pic11.jpg" alt="Certificate">
+        </div>
+
+        <div class="img-box col-12 col-md-6 p-2">
+          <img src="assets/pics/pic11.jpg" alt="Certificate">
+        </div>
+
+        <div class="img-box col-12 col-md-6 p-2">
+          <img src="assets/pics/pic11.jpg" alt="Certificate">
+        </div>
+
+        <div class="img-box col-12 col-md-6 p-2">
+          <img src="assets/pics/pic11.jpg" alt="Certificate">
         </div>
       </div>
 
@@ -117,142 +164,97 @@
 </div>
 <!-- END:: INVESTOR HIGHLIGHT SECTION -->
 
-<!-- START:: OUR PROJECTS SECTION -->
-<div class="projects">
-  <div class="container">
-    <h2 class="sec-heading mt-5"> Our Projects </h2>
-    <div class="row justify-content-center">
-
-      <div class="col-12 col-md-6 col-lg-4 my-3 p-2">
-        <div class="card">
-          <a href="ProjectDetails.php"> 
-            <img src="assets/pics/pic8.jpg" class="card-img-top" alt="...">
-          </a>
-          <div class="card-body">
-            <h4 class="card-title">Spirulina</h4>
-
-            <a href="ProjectDetails.php" class="btn btn-primary"> 
-              <i class="fas fa-plus"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-12 text-center mt-2">
-        <?php $link = 'Projects.php'; $title = 'More Projects' ?>
-        <?php include(INC.'/ui/MainBtn.php')?>
-      </div>
-
-    </div>
-  </div>
-</div>
-<!-- END:: OUR PROJECTS SECTION -->
-
-<!-- START:: GALLERY SECTION -->
-<div class="gallery">
-  <div class="container">
-
-    <h2 class="sec-heading mb-5"> Gallery </h2>
-
-    <div id="gallery-slider" class="owl-carousel owl-theme">
-      <div class="gallery-slider-item"> 
-        <img src="assets/pics/pic20.jpg">
-      </div>
-
-      <div class="gallery-slider-item"> 
-        <img src="assets/pics/pic9.jpg">
-      </div>
-
-      <div class="gallery-slider-item"> 
-        <img src="assets/pics/pic11.jpg">
-      </div>
-
-      <div class="gallery-slider-item"> 
-        <img src="assets/pics/pic16.jpg">
-      </div>
-
-      <div class="gallery-slider-item"> 
-        <img src="assets/pics/pic19.jpg">
-      </div>
-
-      <div class="gallery-slider-item"> 
-        <img src="assets/pics/pic22.jpg">
-      </div>
-
-      <div class="gallery-slider-item"> 
-        <img src="assets/pics/pic18.jpg">
-      </div>
-    </div>
-
-      <div class="col-12 text-center mt-5">
-        <?php $link = 'Gallery.php'; $title = 'View More' ?>
-        <?php include(INC.'/ui/MainBtn.php')?>
-      </div>
-  </div>
-</div>
-<!-- END:: GALLERY SECTION -->
-
 <!-- START:: OUR PRODUCTS SECTION -->
 <div class="products">
   <div class="container">
     <h2 class="sec-heading mt-5"> Our Products </h2>
     <div class="row justify-content-center">
 
-      <div class="col-12 col-md-6 col-lg-4 my-3 p-2">
-        <div class="card">
-          <a href="ProductsDetails.php">
-            <img src="assets/pics/pic21.jpg" class="card-img-top" alt="...">
-          </a>
-          <div class="card-body d-flex justify-content-between">
-            <h4 class="card-title">Spirulina</h4>
-            <a href="ProductsDetails.php" class="btn btn-primary">
-              Read More
-              <i class="far fa-arrow-alt-circle-right"></i>
-            </a>
+      <div class="col-6 col-md-3 my-3 p-2">
+        <a href="ProductsDetails.php">
+          <div class="card">
+            <img src="assets/pics/pic19.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title">Fresh Fruits & Veg</h4>
+            </div>
           </div>
-        </div>
+        </a>
       </div>
 
-      <div class="col-12 col-md-6 col-lg-4 my-3 p-2">
-        <div class="card">
-          <a href="ProductsDetails.php">
-            <img src="assets/pics/pic10.jpg" class="card-img-top" alt="...">
-          </a>
-          <div class="card-body d-flex justify-content-between">
-            <h4 class="card-title">Spirulina</h4>
-            <a href="ProductsDetails.php" class="btn btn-primary">
-              Read More 
-              <i class="far fa-arrow-alt-circle-right"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-12 col-md-6 col-lg-4 my-3 p-2">
-        <div class="card">
-          <a href="ProductsDetails.php">
+      <div class="col-6 col-md-3 my-3 p-2">
+        <a href="ProductsDetails.php">
+          <div class="card">
             <img src="assets/pics/pic15.jpg" class="card-img-top" alt="...">
-          </a>
-          <div class="card-body d-flex justify-content-between">
-            <h4 class="card-title">Spirulina</h4>
-
-            <a href="ProductsDetails.php" class="btn btn-primary">
-              Read More 
-              <i class="far fa-arrow-alt-circle-right"></i>
-            </a>
+            <div class="card-body">
+              <h4 class="card-title"> Frozin Fruits </h4>
+            </div>
           </div>
-        </div>
+        </a>
       </div>
 
-      <div class="col-12 text-center mt-2">
-        <?php $link = 'Products.php'; $title = 'More Products' ?>
-        <?php include(INC.'/ui/MainBtn.php')?>
+      <div class="col-6 col-md-3 my-3 p-2">
+        <a href="ProductsDetails.php">
+          <div class="card">
+            <img src="assets/pics/pic13.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title"> Canned Food </h4>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-6 col-md-3 my-3 p-2">
+        <a href="ProductsDetails.php">
+          <div class="card">
+            <img src="assets/pics/pic9.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title">FoodStuff & Herbs</h4>
+            </div>
+          </div>
+        </a>
       </div>
 
     </div>
   </div>
 </div>
 <!-- END:: OUR PRODUCTS SECTION -->
+
+<!-- START:: WHY GREEN ARROW SECTION -->
+<div class="why-green-arrow">
+  <div class="container">
+    <h2 class="sec-heading text-center mb-5 col-12"> Why Green Arrow ? </h2>
+    <div class="row">
+
+      <div class="investor-info col-12 mb-5">
+        <div class="row align-items-center justify-content-around">
+
+          <div class="info-icon col-6 col-md-3 mb-3 text-center"> 
+            <img src="assets/pics/icons/chart.png" alt="">
+            <h5 class="my-2"> 100 Year Of Experience </h5>
+          </div>
+
+          <div class="info-icon col-6 col-md-3 mb-3 text-center"> 
+            <img src="assets/pics/icons/idea.png" alt="">
+            <h5 class="my-2"> +20 Clients </h5>
+          </div>
+
+          <div class="info-icon col-6 col-md-3 mb-3 text-center"> 
+            <img src="assets/pics/icons/contract.png" alt="">
+            <h5 class="my-2"> +50 Products </h5>
+          </div>
+
+          <div class="info-icon col-6 col-md-3 mb-3 text-center"> 
+            <img src="assets/pics/icons/contract.png" alt="">
+            <h5 class="my-2"> +100 Local State </h5>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- START:: WHY GREEN ARROW SECTION -->
 
 <!-- START:: NEWS SECTION -->
 <div class="news">

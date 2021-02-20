@@ -104,16 +104,16 @@ $sectionPadding: 50px 0;
       width: 15%;
       background-color: $mainColor;
     }
-    &::after {
-      content: "";
-      display: block;
-      position: absolute;
-      top: 50%;
-      right: 8%;
-      height: 2px;
-      width: 15%;
-      background-color: $mainColor;
-    }
+    // &::after {
+    //   content: "";
+    //   display: block;
+    //   position: absolute;
+    //   top: 50%;
+    //   right: 8%;
+    //   height: 2px;
+    //   width: 15%;
+    //   background-color: $mainColor;
+    // }
   }
   @media ( max-width: 690px) {
     .small-sec-heading {
@@ -139,21 +139,21 @@ $sectionPadding: 50px 0;
       display: block;
       position: absolute;
       top: 50%;
-      left: 24%;
+      left: 33%;
       height: 2px;
-      width: 15%;
+      width: 5%;
       background-color: $mainColor;
     }
-    &::after {
-      content: "";
-      display: block;
-      position: absolute;
-      top: 50%;
-      right: 24%;
-      height: 2px;
-      width: 15%;
-      background-color: $mainColor;
-    }
+    // &::after {
+    //   content: "";
+    //   display: block;
+    //   position: absolute;
+    //   top: 50%;
+    //   right: 24%;
+    //   height: 2px;
+    //   width: 15%;
+    //   background-color: $mainColor;
+    // }
   }
   @media ( max-width: 690px) {
     .sec-heading {
@@ -376,61 +376,69 @@ nav {
 // END:: WELCOME SECTION STYLES
 
 // START:: INVESTOR SECTION STYLES
-.investor {
+.quality {
   padding: $sectionPadding;
-  .investor-info {
-    .info-icon {
-      h4 {
-        color: $textColor;
-      }
+  .sec-heading {
+    &::before {
+      left: 27%;
+    }
+  }
+  .quality-info {
+    h2 {
+      color: $mainColor;
+    }
+    p {
+      color: $darkColor;
+      text-align: justify;
+      padding-inline-end: 25px;
     }
   }
 
-  .investor-video {
-    min-height: 360px;
-    max-height: 360px;
-    iframe {
+  .certificates {
+    .img-box {
+      overflow: hidden;
       @include borderRadius();
-      width: 100%;
-      height: 90%;
-      display: block;
-    }
-    h4 {
-      color: $textColor;
+      img {
+        width: 100%;
+        min-height: 200px;
+        max-height: 200px;
+        @include borderRadius();
+        @include transitioning();
+        &:hover {
+          transform: scale(1.05);
+        }
+      }
     }
   }
 }
 // END:: INVESTOR SECTION STYLES
 
 // START:: OUR PROJECTS SECTION STYLES
-.projects {
+.services {
   padding: $sectionPadding;
   .card {
     border: none;
+    align-items: center;
     img {
-      @include borderRadius();
+      min-width: 250px;
+      max-width: 250px; 
+      min-height: 250px; 
+      max-height: 250px; 
+      border-radius: 50%;
     }
     .card-body {
       position: relative;
+      text-align: center;
       h4 {
         color: $textColor;
       }
       a {
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-        position: absolute;
-        top: -25%;
-        right: 10%;
-        background-color: $mainColor;
-        border: none;
-        line-height: 28px;
+        margin-top: 10px;
+        padding: 0 5px;
+        background-color: transparent;
         @include transitioning();
         &:focus {
           outline: none;
-        }
-        &:hover {
-          transform: rotate(360deg) scale(1.2);
         }
       }
     }
@@ -438,73 +446,36 @@ nav {
 }
 // END:: OUR PROJECTS SECTION STYLES
 
-// START:: GALLERY SECTION STYLES
-.gallery {
+// START:: WHY GREEN ARROW SECTION STYLES
+.why-green-arrow {
   padding: $sectionPadding;
-  .owl-carousel {
-    .gallery-slider-item {
-      img {
-        @include borderRadius();
-        max-height: 280px;
-        min-height: 280px;
-      }
-    }
-
-    .owl-nav {
-      position: relative;
-      .owl-prev {
-        width: 35px;
-        height: 35px;
-        position: absolute;
-        left: -19px;
-        top: -165px;
-        background-color: $mainColor;
-        span {
-          font-size: 35px;
-          font-weight: 500;
-          line-height: 30px;
-          color: #fff;
-        }
-      }
-      .owl-next {
-        width: 35px;
-        height: 35px;
-        position: absolute;
-        right: -19px;
-        top: -165px;
-        background-color: $mainColor;
-        span {
-          font-size: 35px;
-          font-weight: 500;
-          line-height: 30px;
-          color: #fff;
-        }
-      }
+  .sec-heading {
+    &::before{
+      left: 29%;
     }
   }
 }
-// END:: GALLERY SECTION STYLES
+// END:: WHY GREEN ARROW SECTION STYLES
 
 // START:: OUR PRODUCTS SECTION STYLES
 .products {
   padding: $sectionPadding;
-  .card {
-    border: none;
-    img {
-      @include borderRadius();
-    }
-    .card-body {
-      position: relative;
-      h4 {
-        color: $textColor;
+  a {
+    text-decoration: none;
+    .card {
+      border: none;
+      align-items: center;
+      img {
+        min-width: 250px;
+        max-width: 250px;
+        min-height: 250px;
+        max-height: 250px;
+        border-radius: 50%;
       }
-      a {
-        color: $mainColor;
-        background-color: transparent;
-        border: none;
-        @include transitioning();
-        &:focus {
-          outline: none;
+      .card-body {
+        text-align: center;
+        h4 {
+          color: $textColor;
         }
       }
     }
