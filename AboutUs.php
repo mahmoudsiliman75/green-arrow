@@ -23,17 +23,29 @@
 <!-- START:: ABOUT US DESCRIPTION SECTION -->
 <div class="about-us-desc">
   <div class="container">
-    <div class="row">
+    <div class="row align-items-center">
 
       <div class="about-img col-12 col-md-6">
         <img class="img-fluid" src="assets/pics/pic6.jpg" alt="About Page Img">
       </div>
 
       <div class="about-text col-12 col-md-6 d-flex flex-column justify-content-center align-items-center">
-        <h2 class="text-center mt-3"> About Nour El Hooda </h2>
-        <p class="my-4"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum laudantium quisquam aspernatur repellat illum eius! Impedit perspiciatis accusamus inventore animi ullam iusto ipsam, enim blanditiis magnam. Ipsum enim error fuga.
-        Dolorum laudantium quisquam aspernatur repellat illum eius! Impedit perspiciatis accusamus inventore animi ullam iusto ipsam, enim blanditiis magnam. Ipsum enim error fuga.  Ipsum enim error fuga.
-        Dolorum laudantium quisquam aspernatur repellat illum eius.</p>
+        <h2 class="text-center mt-3"> Green Arrow </h2>
+        <p class="my-4"> 
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum laudantium quisquam aspernatur repellat illum eius! Impedit perspiciatis accusamus inventore animi ullam iusto ipsam, enim blanditiis magnam. Ipsum enim error fuga.
+          Dolorum laudantium quisquam aspernatur repellat illum eius.
+        </p>
+        <div class="row">
+          <div class="col-6 mb-3"> 
+            <img src="assets/pics/icons/chart.png" alt="">
+            <h5 class="my-2"> 100 Year Of Experience </h5>
+          </div>
+
+          <div class="col-6 mb-3"> 
+            <img src="assets/pics/icons/idea.png" alt="">
+            <h5 class="my-2"> +20 Clients </h5>
+          </div>
+        </div>
       </div>
 
     </div>
@@ -44,7 +56,9 @@
 <!-- START:: OUR GOALS SECTIONS -->
 <div class="goals">
   <div class="container">
-    <h2 class="sec-heading text-center mt-3"> Our Goals </h2>
+    <div class="d-flex justify-content-center">
+      <h2 class="sec-heading text-center mt-3"> Our Vision </h2>
+    </div>
     <p class="my-4"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum laudantium quisquam aspernatur repellat illum eius! Impedit perspiciatis accusamus inventore animi ullam iusto ipsam, enim blanditiis magnam. Ipsum enim error fuga.
     Dolorum laudantium quisquam aspernatur repellat illum eius! Impedit perspiciatis accusamus inventore animi ullam iusto ipsam, enim blanditiis magnam. Ipsum enim error fuga.  Ipsum enim error fuga.
     Dolorum laudantium quisquam aspernatur repellat illum.</p>
@@ -52,34 +66,18 @@
 </div>
 <!-- START:: OUR GOALS SECTIONS -->
 
-<!-- START:: COMPANY HIEGHLIGHT SECTION -->
-<div class="comp-heighlight">
+<!-- START:: OUR VISION SECTIONS -->
+<div class="goals">
   <div class="container">
-    <h2 class="sec-heading text-center mb-5"> Company Heighlight </h2>
-    <div class="row">
-      <div class="col-6 col-md-3 my-3 text-center"> 
-        <img src="assets/pics/icons/financ.png">
-        <h4> Title </h4>
-      </div>
-
-      <div class="col-6 col-md-3 my-3 text-center"> 
-        <img src="assets/pics/icons/team.png">
-        <h4> Title </h4>
-      </div>
-
-      <div class="col-6 col-md-3 my-3 text-center"> 
-        <img src="assets/pics/icons/chart.png">
-        <h4> Title </h4>
-      </div>
-
-      <div class="col-6 col-md-3 my-3 text-center"> 
-        <img src="assets/pics/icons/contract.png">
-        <h4> Title </h4>
-      </div>
+    <div class="d-flex justify-content-center">
+      <h2 class="sec-heading text-center mt-3"> Our Vision </h2>
     </div>
+    <p class="my-4"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum laudantium quisquam aspernatur repellat illum eius! Impedit perspiciatis accusamus inventore animi ullam iusto ipsam, enim blanditiis magnam. Ipsum enim error fuga.
+    Dolorum laudantium quisquam aspernatur repellat illum eius! Impedit perspiciatis accusamus inventore animi ullam iusto ipsam, enim blanditiis magnam. Ipsum enim error fuga.  Ipsum enim error fuga.
+    Dolorum laudantium quisquam aspernatur repellat illum.</p>
   </div>
 </div>
-<!-- START:: COMPANY HIEGHLIGHT SECTION -->
+<!-- START:: OUR VISION SECTIONS -->
 
 <!-- END:: PAGE CONTENT -->
 

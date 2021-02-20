@@ -30,7 +30,7 @@
   <!-- END:: INCLUDING MAIN STYLE FILE -->
 
   <!-- START:: INCLUDING FAV ICON -->
-  <link rel="icon" href="assets/pics/fav-icon.png">
+  <link rel="icon" href="assets/pics/logo.png">
   <!-- END:: INCLUDING FAV ICON -->
   <title>Green Arrow</title>
 </head>
