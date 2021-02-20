@@ -44,6 +44,7 @@ $sectionPadding: 50px 0;
     text-decoration: none;
     padding: 3px 10px;
     border: 2px solid $mainColor;
+    border-radius: 5px;
     color: $mainColor;
     font-size: 15px;
     text-transform: uppercase;
@@ -58,7 +59,6 @@ $sectionPadding: 50px 0;
       height: 2px;
       width: 20px;
       background-color: #fff;
-      transform: skew(50deg);
       @include transitioning();
     }
     &::after {
@@ -70,7 +70,6 @@ $sectionPadding: 50px 0;
       height: 2px;
       width: 20px;
       background-color: #fff;
-      transform: skew(50deg);
       @include transitioning();
     }
     &:hover {
@@ -79,57 +78,17 @@ $sectionPadding: 50px 0;
     }
     &:hover::before {
       left: 60%;
-      transform: skew(-50deg);
     }
     &:hover::after {
       right: 60%;
-      transform: skew(-50deg);
     }
   }
   // END:: MAIN BUTTON STYLE
 
-  // START:: SMALL SECTIONS HEADER STYLE 
-  .small-sec-heading {
-    text-align: center;
-    color: $mainColor;
-    position: relative;
-    font-size: 2.4vw;
-    &::before {
-      content: "";
-      display: block;
-      position: absolute;
-      top: 50%;
-      left: 8%;
-      height: 2px;
-      width: 15%;
-      background-color: $mainColor;
-    }
-    // &::after {
-    //   content: "";
-    //   display: block;
-    //   position: absolute;
-    //   top: 50%;
-    //   right: 8%;
-    //   height: 2px;
-    //   width: 15%;
-    //   background-color: $mainColor;
-    // }
-  }
-  @media ( max-width: 690px) {
-    .small-sec-heading {
-      font-size: 4vw;
-    }
-  }
-  @media ( max-width: 767px) {
-    .small-sec-heading {
-      font-size: 3.4vw;
-    }
-  }
-  // END:: SMALL SECTIONS HEADER STYLE
-
   // START:: MAIN HEADER STYLE 
   .sec-heading {
     margin-top: 0 !important;
+    padding: 5px 20px;
     text-align: center;
     color: $mainColor;
     position: relative;
@@ -138,43 +97,27 @@ $sectionPadding: 50px 0;
       content: "";
       display: block;
       position: absolute;
-      top: 50%;
-      left: 33%;
-      height: 2px;
-      width: 5%;
-      background-color: $mainColor;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 20px;
+      border-top: 2px solid $mainColor;
+      border-left: 2px solid $mainColor;
+      border-bottom: 2px solid $mainColor;
+      border-radius: 5px 0 0 5px;
     }
-    // &::after {
-    //   content: "";
-    //   display: block;
-    //   position: absolute;
-    //   top: 50%;
-    //   right: 24%;
-    //   height: 2px;
-    //   width: 15%;
-    //   background-color: $mainColor;
-    // }
-  }
-  @media ( max-width: 690px) {
-    .sec-heading {
-      font-size: 4vw;
-      &::before {
-        left: 12%;
-      }
-      &::after {
-        right: 12%;
-      }
-    }
-  }
-  @media ( max-width: 767px) {
-    .sec-heading {
-      font-size: 4.5vw;
-      &::before {
-        left: 15%;
-      }
-      &::after {
-        right: 15%;
-      }
+    &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+      width: 20px;
+      border-top: 2px solid $mainColor;
+      border-right: 2px solid $mainColor;
+      border-bottom: 2px solid $mainColor;
+      border-radius: 0 5px 5px 0;
     }
   }
   // END:: MAIN HEADER STYLE
@@ -378,11 +321,6 @@ nav {
 // START:: INVESTOR SECTION STYLES
 .quality {
   padding: $sectionPadding;
-  .sec-heading {
-    &::before {
-      left: 27%;
-    }
-  }
   .quality-info {
     h2 {
       color: $mainColor;
@@ -449,11 +387,6 @@ nav {
 // START:: WHY GREEN ARROW SECTION STYLES
 .why-green-arrow {
   padding: $sectionPadding;
-  .sec-heading {
-    &::before{
-      left: 29%;
-    }
-  }
 }
 // END:: WHY GREEN ARROW SECTION STYLES
 
@@ -466,10 +399,10 @@ nav {
       border: none;
       align-items: center;
       img {
-        min-width: 250px;
-        max-width: 250px;
-        min-height: 250px;
-        max-height: 250px;
+        min-width: 200px;
+        max-width: 200px;
+        min-height: 200px;
+        max-height: 200px;
         border-radius: 50%;
       }
       .card-body {

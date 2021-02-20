@@ -65,7 +65,9 @@
 <!-- START:: OUR SERVICES SECTION -->
 <div class="services">
   <div class="container">
-    <h2 class="sec-heading mt-5"> Our Services </h2>
+    <div class="d-flex justify-content-center">
+      <h2 class="sec-heading mt-5"> Our Services </h2>  
+    </div>
     <div class="row justify-content-center">
 
       <div class="col-12 col-md-6 col-lg-4 my-3 p-2">
@@ -121,8 +123,9 @@
 <!-- START:: INVESTOR HIGHLIGHT SECTION -->
 <div class="quality">
   <div class="container">
-
-    <h2 class="sec-heading"> Quality & Certificates </h2>
+    <div class="d-flex justify-content-center mb-3">
+      <h2 class="sec-heading"> Quality & Certificates </h2>
+    </div>
     <div class="row">
 
       <div class="quality-info d-flex align-items-center col-12 col-md-6 mb-5">
@@ -167,7 +170,9 @@
 <!-- START:: OUR PRODUCTS SECTION -->
 <div class="products">
   <div class="container">
-    <h2 class="sec-heading mt-5"> Our Products </h2>
+    <div class="d-flex justify-content-center">
+      <h2 class="sec-heading mt-5"> Our Products </h2>
+    </div>
     <div class="row justify-content-center">
 
       <div class="col-6 col-md-3 my-3 p-2">
@@ -222,7 +227,9 @@
 <!-- START:: WHY GREEN ARROW SECTION -->
 <div class="why-green-arrow">
   <div class="container">
-    <h2 class="sec-heading text-center mb-5 col-12"> Why Green Arrow ? </h2>
+    <div class="d-flex justify-content-center">
+      <h2 class="sec-heading mb-5"> Why Green Arrow ? </h2>
+    </div>
     <div class="row">
 
       <div class="investor-info col-12 mb-5">
@@ -259,7 +266,9 @@
 <!-- START:: NEWS SECTION -->
 <div class="news">
   <div class="container">
-    <h2 class="sec-heading mt-5"> News </h2>
+    <div class="d-flex justify-content-center">
+      <h2 class="sec-heading mt-5"> News </h2>
+    </div>
     <div class="row justify-content-center">
 
       <div class="col-12 col-md-6 col-lg-4 my-3 p-2">
