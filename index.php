@@ -146,19 +146,27 @@
 
       <div class="certificates col-12 col-md-6 row">
         <div class="img-box col-12 col-md-6 p-2">
-          <img src="assets/pics/pic11.jpg" alt="Certificate">
+          <a href="assets/pics/pic11.jpg" data-lightbox="certificate">
+            <img src="assets/pics/pic11.jpg" alt="Certificate">
+          </a>
         </div>
 
         <div class="img-box col-12 col-md-6 p-2">
-          <img src="assets/pics/pic11.jpg" alt="Certificate">
+          <a href="assets/pics/pic11.jpg" data-lightbox="certificate">
+            <img src="assets/pics/pic11.jpg" alt="Certificate">
+          </a>
         </div>
 
         <div class="img-box col-12 col-md-6 p-2">
-          <img src="assets/pics/pic11.jpg" alt="Certificate">
+          <a href="assets/pics/pic11.jpg" data-lightbox="certificate">
+            <img src="assets/pics/pic11.jpg" alt="Certificate">
+          </a>
         </div>
 
         <div class="img-box col-12 col-md-6 p-2">
-          <img src="assets/pics/pic11.jpg" alt="Certificate">
+          <a href="assets/pics/pic11.jpg" data-lightbox="certificate">
+            <img src="assets/pics/pic11.jpg" alt="Certificate">
+          </a>
         </div>
       </div>
 
