@@ -622,12 +622,12 @@ nav .lang-btn a:hover {
   padding: 50px 0;
 }
 
-.product-details .project-details-img img {
-  border-radius: 10px;
+.product-details h2 {
+  color: #075619;
 }
 
-.product-details .project-details-text h2::before, .product-details .project-details-text h2::after {
-  width: 13%;
+.product-details .project-details-img img {
+  border-radius: 10px;
 }
 
 .product-details .project-details-text p {
@@ -709,6 +709,52 @@ nav .lang-btn a:hover {
 }
 
 .why-to-invest a:hover {
+  color: #fff;
+}
+
+.gallery {
+  padding: 50px 0;
+}
+
+.gallery .owl-carousel .gallery-slider-item img {
+  border-radius: 10px;
+  max-height: 280px;
+  min-height: 280px;
+}
+
+.gallery .owl-carousel .owl-nav {
+  position: relative;
+}
+
+.gallery .owl-carousel .owl-nav .owl-prev {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: -19px;
+  top: -165px;
+  background-color: #075619;
+}
+
+.gallery .owl-carousel .owl-nav .owl-prev span {
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #fff;
+}
+
+.gallery .owl-carousel .owl-nav .owl-next {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  right: -19px;
+  top: -165px;
+  background-color: #075619;
+}
+
+.gallery .owl-carousel .owl-nav .owl-next span {
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 30px;
   color: #fff;
 }
 

@@ -660,19 +660,15 @@ nav {
 // START:: PRODUCT DETAILS PAGE STYLES
 .product-details {
   padding: $sectionPadding;
+  h2 {
+    color: $mainColor;
+  }
   .project-details-img {
     img {
       @include borderRadius();
     }
   }
   .project-details-text {
-    h2 {
-      &::before,
-      &::after {
-        width: 13%;
-      }
-    }
-
     p {
       padding: 0 10px;
       color: $textColor;
@@ -749,6 +745,53 @@ nav {
     }
   }
 }
+
+// START:: GALLERY SECTION STYLES
+.gallery {
+  padding: $sectionPadding;
+  .owl-carousel {
+    .gallery-slider-item {
+      img {
+        @include borderRadius();
+        max-height: 280px;
+        min-height: 280px;
+      }
+    }
+
+    .owl-nav {
+      position: relative;
+      .owl-prev {
+        width: 35px;
+        height: 35px;
+        position: absolute;
+        left: -19px;
+        top: -165px;
+        background-color: $mainColor;
+        span {
+          font-size: 35px;
+          font-weight: 500;
+          line-height: 30px;
+          color: #fff;
+        }
+      }
+      .owl-next {
+        width: 35px;
+        height: 35px;
+        position: absolute;
+        right: -19px;
+        top: -165px;
+        background-color: $mainColor;
+        span {
+          font-size: 35px;
+          font-weight: 500;
+          line-height: 30px;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+// END:: GALLERY SECTION STYLES
 // END:: PRODUCT DETAILS PAGE STYLES
 
 // START:: NEWS PAGE STYLES
