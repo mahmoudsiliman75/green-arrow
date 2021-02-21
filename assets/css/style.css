@@ -590,6 +590,14 @@ nav .lang-btn a:hover {
   padding: 50px 0;
 }
 
+.products-page .filters-box .filter h5 {
+  color: #075619;
+}
+
+.products-page .filters-box .filter label {
+  color: #6d6e75;
+}
+
 .products-page .card {
   border: none;
 }

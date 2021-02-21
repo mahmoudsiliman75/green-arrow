@@ -633,6 +633,16 @@ nav {
 // START:: PRODUCTS PAGE STYLES
 .products-page {
   padding: $sectionPadding;
+  .filters-box {
+    .filter {
+      h5 {
+        color: $mainColor;
+      }
+      label {
+        color: $textColor;
+      }
+    }
+  }
   .card {
     border: none;
     img {

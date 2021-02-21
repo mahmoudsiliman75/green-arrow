@@ -55,10 +55,6 @@
       </li>
 
       <li class="menu-item mx-2"> 
-        <a href="AboutUs.php"> About Us </a> 
-      </li>
-
-      <li class="menu-item mx-2"> 
         <a href="Quality.php"> Quality & certification </a> 
       </li>
 

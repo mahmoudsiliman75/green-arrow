@@ -179,7 +179,7 @@
 <div class="products">
   <div class="container">
     <div class="d-flex justify-content-center">
-      <h2 class="sec-heading mt-5"> Our Products </h2>
+      <h2 class="sec-heading mt-5">  Products Categories </h2>
     </div>
     <div class="row justify-content-center">
 

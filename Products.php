@@ -23,110 +23,163 @@
 <!-- START:: PAGE CONTENT -->
 <div class="products-page">
   <div class="container">
-    <h2 class="sec-heading mt-5"> Our Products </h2>
+    <div class="d-flex justify-content-center">
+      <h2 class="sec-heading mt-5"> Our Products </h2> 
+    </div>
     <div class="row justify-content-center">
+      <!-- START:: FILTERS -->
+      <div class="filters-box col-12 col-md-3">
+        <div class="filter p-3 pb-0 my-4 border rounded">
+          <h5 class="text-center mb-3"> Products Categories </h5>
+          <form method="GET" class="check-boxes">
+            <div class="col-12 form-group form-check">
+              <input type="checkbox" class="form-check-input" id="category1">
+              <label class="form-check-label" for="category1">Fresh Fruits & Vegetables</label>
+            </div>
 
-      <div class="col-12 col-md-6 col-lg-4 my-3 p-2">
-        <div class="card">
-          <a href="ProductsDetails.php"> 
-            <img src="assets/pics/pic5.jpg" class="card-img-top" alt="...">
-          </a>
-          <div class="card-body d-flex justify-content-between">
-            <h4 class="card-title">Spirulina</h4>
+            <div class="col-12 form-group form-check">
+              <input type="checkbox" class="form-check-input" id="category2">
+              <label class="form-check-label" for="category2"> Frozen Fruits </label>
+            </div>
 
-            <a href="ProductsDetails.php" class="btn btn-primary"> 
-              Read More 
-              <i class="far fa-arrow-alt-circle-right"></i>
-            </a>
-          </div>
+            <div class="col-12 form-group form-check">
+              <input type="checkbox" class="form-check-input" id="category3">
+              <label class="form-check-label" for="category3"> Canned Food </label>
+            </div>
+
+            <div class="col-12 form-group form-check">
+              <input type="checkbox" class="form-check-input" id="category4">
+              <label class="form-check-label" for="category4"> Foodstuff & Herbs </label>
+            </div>
+          </form>
+        </div>
+
+        <div class="filter p-3 my-4 border rounded">
+          <h5 class="text-center mb-2"> Our Services  </h5>
+          <form method="GET" class="check-boxes">
+            <div class="col-12 form-group form-check">
+              <input type="checkbox" class="form-check-input" id="service1">
+              <label class="form-check-label" for="service1">Import Service</label>
+            </div>
+
+            <div class="col-12 form-group form-check">
+              <input type="checkbox" class="form-check-input" id="service2">
+              <label class="form-check-label" for="service2"> Export Service </label>
+            </div>
+
+            <div class="col-12 form-group form-check">
+              <input type="checkbox" class="form-check-input" id="service3">
+              <label class="form-check-label" for="service3"> Local Distribution Service </label>
+            </div>
+          </form>
         </div>
       </div>
+      <!-- END:: FILTERS -->
 
-      <div class="col-12 col-md-6 col-lg-4 my-3 p-2">
-        <div class="card">
-          <a href="ProductsDetails.php"> 
-            <img src="assets/pics/pic18.jpg" class="card-img-top" alt="...">
-          </a>
-          <div class="card-body d-flex justify-content-between">
-            <h4 class="card-title">Spirulina</h4>
-
-            <a href="ProductsDetails.php" class="btn btn-primary"> 
-              Read More 
-              <i class="far fa-arrow-alt-circle-right"></i>
+      <!-- START:: PRODUCTS -->
+      <div class="col-12 col-md-9 row">
+        <div class="col-12 col-md-6 my-3 p-2">
+          <div class="card">
+            <a href="ProductsDetails.php"> 
+              <img src="assets/pics/pic5.jpg" class="card-img-top" alt="...">
             </a>
+            <div class="card-body d-flex justify-content-between">
+              <h4 class="card-title"> Product Name </h4>
+
+              <a href="ProductsDetails.php" class="btn btn-primary"> 
+                Read More 
+                <i class="far fa-arrow-alt-circle-right"></i>
+              </a>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="col-12 col-md-6 col-lg-4 my-3 p-2">
-        <div class="card">
-          <a href="ProductsDetails.php"> 
-            <img src="assets/pics/pic15.jpg" class="card-img-top" alt="...">
-          </a>
-          <div class="card-body d-flex justify-content-between">
-            <h4 class="card-title">Spirulina</h4>
-
-            <a href="ProductsDetails.php" class="btn btn-primary"> 
-              Read More 
-              <i class="far fa-arrow-alt-circle-right"></i>
+        <div class="col-12 col-md-6 my-3 p-2">
+          <div class="card">
+            <a href="ProductsDetails.php"> 
+              <img src="assets/pics/pic18.jpg" class="card-img-top" alt="...">
             </a>
+            <div class="card-body d-flex justify-content-between">
+              <h4 class="card-title"> Product Name </h4>
+
+              <a href="ProductsDetails.php" class="btn btn-primary"> 
+                Read More 
+                <i class="far fa-arrow-alt-circle-right"></i>
+              </a>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="col-12 col-md-6 col-lg-4 my-3 p-2">
-        <div class="card">
-          <a href="ProductsDetails.php"> 
-            <img src="assets/pics/pic5.jpg" class="card-img-top" alt="...">
-          </a>
-          <div class="card-body d-flex justify-content-between">
-            <h4 class="card-title">Spirulina</h4>
-
-            <a href="ProductsDetails.php" class="btn btn-primary"> 
-              Read More 
-              <i class="far fa-arrow-alt-circle-right"></i>
+        <div class="col-12 col-md-6 my-3 p-2">
+          <div class="card">
+            <a href="ProductsDetails.php"> 
+              <img src="assets/pics/pic15.jpg" class="card-img-top" alt="...">
             </a>
+            <div class="card-body d-flex justify-content-between">
+              <h4 class="card-title"> Product Name </h4>
+
+              <a href="ProductsDetails.php" class="btn btn-primary"> 
+                Read More 
+                <i class="far fa-arrow-alt-circle-right"></i>
+              </a>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="col-12 col-md-6 col-lg-4 my-3 p-2">
-        <div class="card">
-          <a href="ProductsDetails.php"> 
-            <img src="assets/pics/pic18.jpg" class="card-img-top" alt="...">
-          </a>
-          <div class="card-body d-flex justify-content-between">
-            <h4 class="card-title">Spirulina</h4>
-
-            <a href="ProductsDetails.php" class="btn btn-primary"> 
-              Read More 
-              <i class="far fa-arrow-alt-circle-right"></i>
+        <div class="col-12 col-md-6 my-3 p-2">
+          <div class="card">
+            <a href="ProductsDetails.php"> 
+              <img src="assets/pics/pic5.jpg" class="card-img-top" alt="...">
             </a>
+            <div class="card-body d-flex justify-content-between">
+              <h4 class="card-title"> Product Name </h4>
+
+              <a href="ProductsDetails.php" class="btn btn-primary"> 
+                Read More 
+                <i class="far fa-arrow-alt-circle-right"></i>
+              </a>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="col-12 col-md-6 col-lg-4 my-3 p-2">
-        <div class="card">
-          <a href="ProductsDetails.php"> 
-            <img src="assets/pics/pic15.jpg" class="card-img-top" alt="...">
-          </a>
-          <div class="card-body d-flex justify-content-between">
-            <h4 class="card-title">Spirulina</h4>
-
-            <a href="ProductsDetails.php" class="btn btn-primary"> 
-              Read More 
-              <i class="far fa-arrow-alt-circle-right"></i>
+        <div class="col-12 col-md-6 my-3 p-2">
+          <div class="card">
+            <a href="ProductsDetails.php"> 
+              <img src="assets/pics/pic18.jpg" class="card-img-top" alt="...">
             </a>
+            <div class="card-body d-flex justify-content-between">
+              <h4 class="card-title"> Product Name </h4>
+
+              <a href="ProductsDetails.php" class="btn btn-primary"> 
+                Read More 
+                <i class="far fa-arrow-alt-circle-right"></i>
+              </a>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="col-12 text-center">
-        <?php $link = '#'; $title = 'Load More' ?>
-        <?php include(INC.'/ui/MainBtn.php')?>
-      </div>
+        <div class="col-12 col-md-6 my-3 p-2">
+          <div class="card">
+            <a href="ProductsDetails.php"> 
+              <img src="assets/pics/pic15.jpg" class="card-img-top" alt="...">
+            </a>
+            <div class="card-body d-flex justify-content-between">
+              <h4 class="card-title"> Product Name </h4>
 
+              <a href="ProductsDetails.php" class="btn btn-primary"> 
+                Read More 
+                <i class="far fa-arrow-alt-circle-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 text-center">
+          <?php $link = 'javascript:;'; $title = 'Load More' ?>
+          <?php include(INC.'/ui/MainBtn.php')?>
+        </div>
+      </div>
+      <!-- END:: PRODUCTS -->
     </div>
   </div>
 </div>
