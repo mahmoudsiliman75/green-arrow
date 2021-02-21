@@ -46,35 +46,35 @@
 
   <div class="nav-links">
     <ul class="menu-container list-unstyled d-flex align-items-center ">
-      <li class="menu-item mx-3"> 
+      <li class="menu-item mx-2"> 
         <a href="index.php" class="active"> Home </a> 
       </li>
 
-      <li class="menu-item mx-3"> 
+      <li class="menu-item mx-2"> 
         <a href="AboutUs.php"> About Us </a> 
       </li>
 
-      <li class="menu-item mx-3"> 
-        <a href="Projects.php"> Projects </a> 
+      <li class="menu-item mx-2"> 
+        <a href="AboutUs.php"> About Us </a> 
       </li>
 
-      <li class="menu-item mx-3"> 
+      <li class="menu-item mx-2"> 
+        <a href="Quality.php"> Quality & certification </a> 
+      </li>
+
+      <li class="menu-item mx-2"> 
         <a href="Products.php"> Products </a> 
       </li>
 
-      <li class="menu-item mx-3"> 
-        <a href="AllNews.php"> News </a> 
+      <li class="menu-item mx-2"> 
+        <a href="#"> Seasonal Calender </a> 
       </li>
 
-      <li class="menu-item mx-3"> 
-        <a href="VideosLiberary.php"> Video Liberary </a> 
-      </li>
-
-      <li class="menu-item mx-3"> 
+      <li class="menu-item mx-2"> 
         <a href="Gallery.php"> Gallery </a> 
       </li>
 
-      <li class="menu-item mx-3"> 
+      <li class="menu-item mx-2"> 
         <a href="ContactUs.php"> Contact Us </a> 
       </li>
     </ul>

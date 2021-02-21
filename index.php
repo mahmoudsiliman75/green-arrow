@@ -120,7 +120,7 @@
 </div>
 <!-- END:: OUR SERVICES SECTION -->
 
-<!-- START:: INVESTOR HIGHLIGHT SECTION -->
+<!-- START:: QUALITY AND CERTIFICATION SECTION -->
 <div class="quality">
   <div class="container">
     <div class="d-flex justify-content-center mb-3">
@@ -139,7 +139,7 @@
           </p>
           <!-- BTN NAME: VIEW MORE VIDEOS -->
           <!-- BTN DIRECTION PAGE: VideosLiberary.php -->
-          <?php $link = 'index.php'; $title = 'Learn More' ?>
+          <?php $link = 'Quality.php'; $title = 'Learn More' ?>
           <?php include(INC.'/ui/MainBtn.php')?>
         </div>
       </div>
@@ -173,7 +173,7 @@
     </div>
   </div>
 </div>
-<!-- END:: INVESTOR HIGHLIGHT SECTION -->
+<!-- END:: QUALITY AND CERTIFICATION SECTION -->
 
 <!-- START:: OUR PRODUCTS SECTION -->
 <div class="products">
