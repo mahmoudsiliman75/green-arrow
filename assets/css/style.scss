@@ -746,15 +746,27 @@ nav {
   }
 }
 
-// START:: GALLERY SECTION STYLES
-.gallery {
+// START:: PRODUCTS GALLERY SECTION STYLES
+.products-gallery {
   padding: $sectionPadding;
   .owl-carousel {
-    .gallery-slider-item {
-      img {
-        @include borderRadius();
-        max-height: 280px;
-        min-height: 280px;
+    a{
+      text-decoration: none;
+      .products-gallery-slider-item {
+        text-align: start;
+        img {
+          @include borderRadius();
+          max-height: 280px;
+          min-height: 280px;
+        }
+        h5 {
+          padding-inline-start: 10px;
+          margin-top: 5px;
+          color: $mainColor;
+          svg {
+            margin-inline-start: 10px;
+          }
+        }
       }
     }
 
@@ -765,7 +777,7 @@ nav {
         height: 35px;
         position: absolute;
         left: -19px;
-        top: -165px;
+        top: -190px;
         background-color: $mainColor;
         span {
           font-size: 35px;
@@ -779,7 +791,7 @@ nav {
         height: 35px;
         position: absolute;
         right: -19px;
-        top: -165px;
+        top: -190px;
         background-color: $mainColor;
         span {
           font-size: 35px;
@@ -791,7 +803,7 @@ nav {
     }
   }
 }
-// END:: GALLERY SECTION STYLES
+// END:: PRODUCTS GALLERY SECTION STYLES
 // END:: PRODUCT DETAILS PAGE STYLES
 
 // START:: NEWS PAGE STYLES

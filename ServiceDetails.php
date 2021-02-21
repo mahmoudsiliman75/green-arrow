@@ -26,13 +26,13 @@
 <div class="product-details">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-6">
+      <div class="col-12 col-md-6">
         <div class="project-details-img">
           <img src="assets/pics/pic5.jpg" alt="Product Details Img" class="img-fluid">
         </div>
       </div>
 
-      <div class="col-6">
+      <div class="col-12 col-md-6">
         <div class="project-details-text">
           <h2 class="mb-4"> Import Service </h2>
           <p> 
@@ -74,51 +74,58 @@
 <!-- END:: WHY SECTION -->
 
 <!-- START:: SERVICE PRODUCTS -->
-<div class="gallery">
+<div class="products-gallery">
   <div class="container">
     <div class="d-flex justify-content-center">
       <h2 class="sec-heading mb-5"> Service Products </h2>
     </div>
 
     <div id="gallery-slider" class="owl-carousel owl-theme">
-      <div class="gallery-slider-item"> 
-        <img src="assets/pics/pic20.jpg">
-        <h5> Product Name <i class="far fa-arrow-alt-circle-right"></i> </h5>
-      </div>
+      <a href="ProductDetails.php">
+        <div class="products-gallery-slider-item"> 
+          <img src="assets/pics/pic20.jpg">
+          <h5> Product Name <i class="far fa-arrow-alt-circle-right"></i> </h5>
+        </div>
+      </a>
 
-      <div class="gallery-slider-item"> 
-        <img src="assets/pics/pic9.jpg">
-        <h5> Product Name <i class="far fa-arrow-alt-circle-right"></i> </h5>
-      </div>
+      <a href="ProductDetails.php">
+        <div class="products-gallery-slider-item"> 
+          <img src="assets/pics/pic9.jpg">
+          <h5> Product Name <i class="far fa-arrow-alt-circle-right"></i> </h5>
+        </div>
+      </a>
 
-      <div class="gallery-slider-item"> 
-        <img src="assets/pics/pic11.jpg">
-        <h5> Product Name <i class="far fa-arrow-alt-circle-right"></i> </h5>
-      </div>
+      <a href="ProductDetails.php">
+        <div class="products-gallery-slider-item"> 
+          <img src="assets/pics/pic11.jpg">
+          <h5> Product Name <i class="far fa-arrow-alt-circle-right"></i> </h5>
+        </div>
+      </a>
 
-      <div class="gallery-slider-item"> 
-        <img src="assets/pics/pic16.jpg">
-        <h5> Product Name <i class="far fa-arrow-alt-circle-right"></i> </h5>
-      </div>
+      <a href="ProductDetails.php">
+        <div class="products-gallery-slider-item"> 
+          <img src="assets/pics/pic16.jpg">
+          <h5> Product Name <i class="far fa-arrow-alt-circle-right"></i> </h5>
+        </div>
+      </a>
 
-      <div class="gallery-slider-item"> 
-        <img src="assets/pics/pic19.jpg">
-        <h5> Product Name <i class="far fa-arrow-alt-circle-right"></i> </h5>
-      </div>
+      <a href="ProductDetails.php">
+        <div class="products-gallery-slider-item"> 
+          <img src="assets/pics/pic19.jpg">
+          <h5> Product Name <i class="far fa-arrow-alt-circle-right"></i> </h5>
+        </div>
+      </a>
 
-      <div class="gallery-slider-item"> 
-        <img src="assets/pics/pic22.jpg">
-        <h5> Product Name <i class="far fa-arrow-alt-circle-right"></i> </h5>
-      </div>
-
-      <div class="gallery-slider-item"> 
-        <img src="assets/pics/pic18.jpg">
-        <h5> Product Name <i class="far fa-arrow-alt-circle-right"></i> </h5>
-      </div>
+      <a href="ProductDetails.php">
+        <div class="products-gallery-slider-item"> 
+          <img src="assets/pics/pic18.jpg">
+          <h5> Product Name <i class="far fa-arrow-alt-circle-right"></i> </h5>
+        </div>
+      </a>
     </div>
 
       <div class="col-12 text-center mt-5">
-        <?php $link = 'Gallery.php'; $title = 'View More' ?>
+        <?php $link = 'Products.php'; $title = 'View More' ?>
         <?php include(INC.'/ui/MainBtn.php')?>
       </div>
   </div>
