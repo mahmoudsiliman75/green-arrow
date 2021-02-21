@@ -29,7 +29,7 @@
     <div class="row justify-content-center">
       <!-- START:: FILTERS -->
       <div class="filters-box col-12 col-md-3">
-        <div class="filter p-3 pb-0 my-4 border rounded">
+        <div class="filter p-3 pb-0 my-4 rounded">
           <h5 class="text-center mb-3"> Products Categories </h5>
           <form method="GET" class="check-boxes">
             <div class="col-12 form-group form-check">
@@ -54,7 +54,7 @@
           </form>
         </div>
 
-        <div class="filter p-3 my-4 border rounded">
+        <div class="filter p-3 my-4 rounded">
           <h5 class="text-center mb-2"> Our Services  </h5>
           <form method="GET" class="check-boxes">
             <div class="col-12 form-group form-check">

@@ -635,6 +635,7 @@ nav {
   padding: $sectionPadding;
   .filters-box {
     .filter {
+      border: 1px dashed $mainColor;
       h5 {
         color: $mainColor;
       }
@@ -670,14 +671,45 @@ nav {
 // START:: PRODUCT DETAILS PAGE STYLES
 .product-details {
   padding: $sectionPadding;
-  h2 {
-    color: $mainColor;
-  }
-  .project-details-img {
+  .img-box {
+    @include borderRadius();
     img {
+      width: 100%;
+      height: auto;
       @include borderRadius();
     }
   }
+
+  .filters-box {
+    .filter {
+      margin-bottom: 15px;
+      h3 {
+        color: $mainColor;
+        margin-bottom: 15px;
+      }
+    }
+    .product-titles {
+      p {
+        color: $mainColor;
+        svg, 
+        span {
+          color: $textColor;
+          margin-inline-end: 10px;
+        }
+      }
+    }
+  }
+
+  .product-info {
+    padding: $sectionPadding;
+    h3 {
+      color: $mainColor;
+    }
+    p {
+      text-align: justify;
+    }
+  }
+
   .project-details-text {
     p {
       padding: 0 10px;
