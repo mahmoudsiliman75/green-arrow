@@ -23,29 +23,31 @@
 <!-- START:: PAGE CONTENT -->
 <div class="contact-us-page">
   <div class="container">
-    <h2 class="sec-heading mt-5"> Our Farms Addresses </h2>
+    <div class="d-flex justify-content-center">
+      <h2 class="sec-heading mt-5"> Get In Touch With Us </h2>
+    </div>
+    
 
     <!-- START:: FARMS ADRESSES SECTION -->
     <div class="row justify-content-center mb-5">
 
       <div class="col-12 col-md-6 col-lg-4 my-3 p-2">
         <div class="card p-3">
-          <h4 class="card-title text-center"> Adminstrative Headquarters </h4>
+          <h2 class="card-title text-center mb-4"> 
+            <i class="fas fa-map-marker-alt fa-lg"></i>
+          </h2>
 
           <ul class="card-list container list-unstyled">
-            <li> 
-              <i class="fas fa-map-marker-alt"></i>
-              <span> 48 Farid Semeika Street Nozha </span>
+            <li class="text-center"> 
+              <span> 
+                <h4 class="text-center"> Address </h4> 
+              </span>
             </li>
 
-            <li> 
-              <i class="fas fa-mobile-alt"></i>
-              <span> 01000000001 </span>
-            </li>
-
-            <li> 
-              <i class="fas fa-envelope"></i>
-              <span> info@NourElHooda.com </span>
+            <li class="text-center"> 
+              <span> 
+                <h5 class="text-center"> El Doki, Giza, Egypt </h5> 
+              </span>
             </li>
           </ul>
         </div>
@@ -53,22 +55,22 @@
 
       <div class="col-12 col-md-6 col-lg-4 my-3 p-2">
         <div class="card p-3">
-          <h4 class="card-title text-center"> Farmer </h4>
+          <h2 class="card-title text-center mb-4"> 
+            <i class="fas fa-phone-alt"></i>
+          </h2>
 
           <ul class="card-list container list-unstyled">
-            <li class="d-flex align-items-start"> 
-              <i class="fas fa-map-marker-alt"></i>
-              <span> Misr Agriculture Assosiation, Cairo Ismailia Road, In Front Of El Shorouk Gate, A. </span>
+            <li class="text-center"> 
+              <span> 
+                <h4 class="text-center"> Phones </h4> 
+              </span>
             </li>
 
-            <li> 
-              <i class="fas fa-mobile-alt"></i>
-              <span> 01000000002 </span>
-            </li>
-
-            <li> 
-              <i class="fas fa-envelope"></i>
-              <span> info@NourElHooda.com </span>
+            <li class="text-center"> 
+              <span> 
+                <h6 class="text-center"> 01000000001 </h6> 
+                <h6 class="text-center"> 01000000002 </h6> 
+              </span>
             </li>
           </ul>
         </div>
@@ -76,22 +78,21 @@
 
       <div class="col-12 col-md-6 col-lg-4 my-3 p-2">
         <div class="card p-3">
-          <h4 class="card-title text-center"> Farmer </h4>
+          <h2 class="card-title text-center mb-4"> 
+            <i class="far fa-envelope"></i>
+          </h2>
 
           <ul class="card-list container list-unstyled">
-            <li class="d-flex align-items-start">
-              <i class="fas fa-map-marker-alt"></i>
-              <span> Abu Ghaleb City At The Beginning Of The Revolution, Next To Shabrawishi's Farm </span>
+            <li class="text-center"> 
+              <span> 
+                <h4 class="text-center"> Email </h4> 
+              </span>
             </li>
 
-            <li> 
-              <i class="fas fa-mobile-alt"></i>
-              <span> 01000000003 </span>
-            </li>
-
-            <li> 
-              <i class="fas fa-envelope"></i>
-              <span> info@NourElHooda.com </span>
+            <li class="text-center"> 
+              <span> 
+                <h5 class="text-center"> NourElHooda@localhost.com </h5> 
+              </span>
             </li>
           </ul>
         </div>
