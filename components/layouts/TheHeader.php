@@ -63,7 +63,7 @@
       </li>
 
       <li class="menu-item mx-2"> 
-        <a href="#"> Seasonal Calender </a> 
+        <a href="SeasonalCalender.php"> Seasonal Calender </a> 
       </li>
 
       <li class="menu-item mx-2"> 

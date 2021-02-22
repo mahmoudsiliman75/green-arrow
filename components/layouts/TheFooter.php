@@ -17,7 +17,7 @@
           <div>
             <a href="Products.php"> Products </a>
             <a href="AllNews.php"> News </a>
-            <a href="#"> Seasonal Calender </a>
+            <a href="SeasonalCalender.php"> Seasonal Calender </a>
             <a href="ContactUs.php"> Contact Us </a>
           </div>
         </div>

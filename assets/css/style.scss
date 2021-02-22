@@ -995,7 +995,7 @@ nav {
 // END:: ARTICLE DETAILS PAGE STYLES
 
 // START:: VIDEOS LIBERARY PAGE STYLES
-.videos-liberary {
+.seasonal {
   padding: $sectionPadding;
   h2 {
     &::before,
@@ -1023,6 +1023,25 @@ nav {
         color: #fff;
         background-color: $mainColor
       }
+    }
+  }
+
+  .search-box {
+    display: flex;
+    align-items: center;
+    position: relative;
+    input {
+      border-radius: 20px;
+    }
+    .search-btn {
+      width: 40px;
+      height: 40px;
+      position: absolute;
+      right: 0;
+      border: none;
+      background-color: $mainColor;
+      color: #fff;
+      border-radius: 50%;
     }
   }
 
