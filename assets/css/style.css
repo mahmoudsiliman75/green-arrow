@@ -898,6 +898,18 @@ nav .lang-btn a:hover {
   border-radius: 10px;
 }
 
+.article-details .article-details-img h4 {
+  color: #075619;
+}
+
+.article-details .article-details-img h4 span {
+  font-size: 18px;
+}
+
+.article-details .article-details-img h4 span svg {
+  color: #777;
+}
+
 .article-details .article-details-text h2::before, .article-details .article-details-text h2::after {
   width: 13%;
 }

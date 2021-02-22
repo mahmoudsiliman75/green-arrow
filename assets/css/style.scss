@@ -914,6 +914,15 @@ nav {
     img {
       @include borderRadius();
     }
+    h4 {
+      color: $mainColor;
+      span {
+        font-size: 18px;
+        svg {
+          color: #777;
+        }
+      }
+    }
   }
   .article-details-text {
     h2 {
