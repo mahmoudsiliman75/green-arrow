@@ -10,14 +10,14 @@
           <div>
             <a href="index.php"> Home </a>
             <a href="AboutUs.php"> About Us </a>
-            <a href="Projects.php"> Projects </a>
-            <a href="Gallery.php"> Gallery </a>
+            <a href="#"> Services </a>
+            <a href="Quality.php"> Quality & Certificates </a>
           </div>
 
           <div>
             <a href="Products.php"> Products </a>
             <a href="AllNews.php"> News </a>
-            <a href="VideosLiberary.php"> Video Liberary </a>
+            <a href="#"> Seasonal Calender </a>
             <a href="ContactUs.php"> Contact Us </a>
           </div>
         </div>
