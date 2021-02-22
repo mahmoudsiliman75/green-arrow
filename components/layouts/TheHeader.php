@@ -67,7 +67,7 @@
       </li>
 
       <li class="menu-item mx-2"> 
-        <a href="Gallery.php"> Gallery </a> 
+        <a href="AllNews.php"> News </a> 
       </li>
 
       <li class="menu-item mx-2"> 

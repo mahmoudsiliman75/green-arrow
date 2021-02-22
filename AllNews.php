@@ -23,7 +23,9 @@
 <!-- START:: PAGE CONTENT -->
 <div class="news-page">
   <div class="container">
-    <h2 class="sec-heading mt-5"> Investor News </h2>
+    <div class="d-flex justify-content-center">
+      <h2 class="sec-heading mt-5"> News </h2>
+    </div>
     <div class="row justify-content-center">
 
       <div class="col-12 col-md-6 col-lg-4 my-3 p-2">
