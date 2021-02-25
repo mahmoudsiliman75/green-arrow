@@ -98,28 +98,31 @@ $sectionPadding: 50px 0;
       content: "";
       display: block;
       position: absolute;
-      top: 0;
-      left: 0;
-      height: 100%;
-      width: 20px;
-      border-top: 2px solid $mainColor;
-      border-left: 2px solid $mainColor;
-      border-bottom: 2px solid $mainColor;
-      border-radius: 5px 0 0 5px;
+      top: 50%;
+      left: -15px;
+      height: 2px;
+      background-color: $mainColor;
+      width: 30px;
+      // height: 100%;
+      // width: 20px;
+      // border-top: 2px solid $mainColor;
+      // border-left: 2px solid $mainColor;
+      // border-bottom: 2px solid $mainColor;
+      // border-radius: 5px 0 0 5px;
     }
-    &::after {
-      content: "";
-      display: block;
-      position: absolute;
-      top: 0;
-      right: 0;
-      height: 100%;
-      width: 20px;
-      border-top: 2px solid $mainColor;
-      border-right: 2px solid $mainColor;
-      border-bottom: 2px solid $mainColor;
-      border-radius: 0 5px 5px 0;
-    }
+    // &::after {
+    //   content: "";
+    //   display: block;
+    //   position: absolute;
+    //   top: 0;
+    //   right: 0;
+    //   height: 100%;
+    //   width: 20px;
+    //   border-top: 2px solid $mainColor;
+    //   border-right: 2px solid $mainColor;
+    //   border-bottom: 2px solid $mainColor;
+    //   border-radius: 0 5px 5px 0;
+    // }
   }
   // END:: MAIN HEADER STYLE
 
@@ -197,15 +200,22 @@ nav {
   }
 
   .lang-btn {
-    height: auto;
     a {
+      border: 2px solid $mainColor;
       text-decoration: none;
-      color: $darkColor;
-      font-size: 35px;
+      color: $mainColor;
+      padding-bottom: 8px;
+      font-size: 20px;
+      width: 30px;
+      height: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       position: relative;
       @include transitioning();
       &:hover {
-        color: $mainColor;
+        color: #fff;
+        background-color: $mainColor;
       }
     }
   }

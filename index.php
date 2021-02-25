@@ -131,7 +131,7 @@
       <div class="quality-info d-flex align-items-center col-12 col-md-6 mb-5">
         <div class="row align-items-center justify-content-center">
 
-          <h2 class="text-center mb-5 col-12"> We Only Do Our Best ! </h2>
+          <h2 class="mb-5 col-12"> We Only Do Our Best ! </h2>
           <p class="mb-4">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             Harum dignissimos sequi numquam vel, quasi praesentium deleniti ducimus nostrum. 

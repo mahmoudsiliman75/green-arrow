@@ -55,7 +55,7 @@
       <div class="col-12 col-md-6 col-lg-4 my-3 p-2">
         <div class="card p-3">
           <h2 class="card-title text-center mb-4"> 
-            <i class="fas fa-map-marker-alt fa-lg"></i>
+            <i class="fas fa-map-marker-alt fa-2x"></i>
           </h2>
 
           <ul class="card-list container list-unstyled">
@@ -77,7 +77,7 @@
       <div class="col-12 col-md-6 col-lg-4 my-3 p-2">
         <div class="card p-3">
           <h2 class="card-title text-center mb-4"> 
-            <i class="fas fa-phone-alt"></i>
+            <i class="fas fa-phone-alt  fa-2x"></i>
           </h2>
 
           <ul class="card-list container list-unstyled">
@@ -100,7 +100,7 @@
       <div class="col-12 col-md-6 col-lg-4 my-3 p-2">
         <div class="card p-3">
           <h2 class="card-title text-center mb-4"> 
-            <i class="far fa-envelope"></i>
+            <i class="far fa-envelope  fa-2x"></i>
           </h2>
 
           <ul class="card-list container list-unstyled">

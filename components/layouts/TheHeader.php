@@ -46,31 +46,31 @@
 
   <div class="nav-links">
     <ul class="menu-container list-unstyled d-flex align-items-center ">
-      <li class="menu-item mx-2"> 
+      <li class="menu-item mx-3"> 
         <a href="index.php" class="active"> Home </a> 
       </li>
 
-      <li class="menu-item mx-2"> 
+      <li class="menu-item mx-3"> 
         <a href="AboutUs.php"> About Us </a> 
       </li>
 
-      <li class="menu-item mx-2"> 
+      <li class="menu-item mx-3"> 
         <a href="Quality.php"> Quality & certification </a> 
       </li>
 
-      <li class="menu-item mx-2"> 
+      <li class="menu-item mx-3"> 
         <a href="Products.php"> Products </a> 
       </li>
 
-      <li class="menu-item mx-2"> 
+      <li class="menu-item mx-3"> 
         <a href="SeasonalCalender.php"> Seasonal Calender </a> 
       </li>
 
-      <li class="menu-item mx-2"> 
+      <li class="menu-item mx-3"> 
         <a href="AllNews.php"> News </a> 
       </li>
 
-      <li class="menu-item mx-2"> 
+      <li class="menu-item mx-3"> 
         <a href="ContactUs.php"> Contact Us </a> 
       </li>
     </ul>
@@ -78,7 +78,7 @@
 
   <div class="lang-btn d-flex align-items-center">
     <a href="#" data-toggle="tooltip" data-placement="bottom" title="Change Language"> 
-      <i class="fas fa-language"></i> 
+      ع 
     </a>
   </div>
 </nav>

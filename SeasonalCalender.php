@@ -380,10 +380,10 @@
             </table>
           </div>
 
-          <div class="col-12">
+          <!-- <div class="col-12 text-center">
             <button class="hover-effect mx-2"> Export xlsx </button>
             <button class="hover-effect mx-2"> Export To csv </button>
-          </div>
+          </div> -->
         </div>
       </div>
       <!-- END:: TAB CONTENT SHEET -->
@@ -713,10 +713,10 @@
             </table>
           </div>
 
-          <div class="col-12">
+          <!-- <div class="col-12 text-center">
             <button class="hover-effect mx-2"> Export xlsx </button>
             <button class="hover-effect mx-2"> Export To csv </button>
-          </div>
+          </div> -->
         </div>
       </div>
       <!-- END:: TAB CONTENT SHEET -->
@@ -1046,10 +1046,10 @@
             </table>
           </div>
 
-          <div class="col-12">
+          <!-- <div class="col-12 text-center">
             <button class="hover-effect mx-2"> Export xlsx </button>
             <button class="hover-effect mx-2"> Export To csv </button>
-          </div>
+          </div> -->
         </div>
       </div>
       <!-- END:: TAB CONTENT SHEET -->
@@ -1379,10 +1379,10 @@
             </table>
           </div>
 
-          <div class="col-12">
+          <!-- <div class="col-12 text-center">
             <button class="hover-effect mx-2"> Export xlsx </button>
             <button class="hover-effect mx-2"> Export To csv </button>
-          </div>
+          </div> -->
         </div>
       </div>
       <!-- END:: TAB CONTENT SHEET -->
@@ -1712,10 +1712,10 @@
             </table>
           </div>
 
-          <div class="col-12">
+          <!-- <div class="col-12 text-center">
             <button class="hover-effect mx-2"> Export xlsx </button>
             <button class="hover-effect mx-2"> Export To csv </button>
-          </div>
+          </div> -->
         </div>
       </div>
       <!-- END:: TAB CONTENT SHEET -->
