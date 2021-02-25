@@ -12,11 +12,6 @@
 <div class="intro-img-box">
   <div class="overlay"></div>
   <img src="assets/pics/pic13.jpg" alt="Intro Img" >
-  <div class="curve">
-    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-      <path d="M600,112.77C268.63,112.77,0,65.52,0,7.23V120H1200V7.23C1200,65.52,931.37,112.77,600,112.77Z" class="shape-fill"></path>
-    </svg>
-  </div>
 </div>
 <!-- END:: INTRO IMG -->
 
@@ -78,97 +73,79 @@
 
       <!-- START:: PRODUCTS -->
       <div class="col-12 col-md-9 row">
-        <div class="col-12 col-md-6 my-3 p-2">
+        <div class="col-12 col-md-4 my-3 p-2">
           <div class="card">
             <a href="ProductsDetails.php"> 
               <img src="assets/pics/pic5.jpg" class="card-img-top" alt="...">
             </a>
-            <div class="card-body d-flex justify-content-between">
-              <h4 class="card-title"> Product Name </h4>
-
+            <div class="card-body d-flex justify-content-between p-0">
               <a href="ProductsDetails.php" class="btn btn-primary"> 
-                Read More 
-                <i class="far fa-arrow-alt-circle-right"></i>
+                <h6 class="card-title"> Product Name <i class="far fa-arrow-alt-circle-right"></i></h6>
               </a>
             </div>
           </div>
         </div>
 
-        <div class="col-12 col-md-6 my-3 p-2">
+        <div class="col-12 col-md-4 my-3 p-2">
           <div class="card">
             <a href="ProductsDetails.php"> 
               <img src="assets/pics/pic18.jpg" class="card-img-top" alt="...">
             </a>
-            <div class="card-body d-flex justify-content-between">
-              <h4 class="card-title"> Product Name </h4>
-
+            <div class="card-body d-flex justify-content-between p-0">
               <a href="ProductsDetails.php" class="btn btn-primary"> 
-                Read More 
-                <i class="far fa-arrow-alt-circle-right"></i>
+                <h6 class="card-title"> Product Name <i class="far fa-arrow-alt-circle-right"></i></h6>
               </a>
             </div>
           </div>
         </div>
 
-        <div class="col-12 col-md-6 my-3 p-2">
+        <div class="col-12 col-md-4 my-3 p-2">
           <div class="card">
             <a href="ProductsDetails.php"> 
               <img src="assets/pics/pic15.jpg" class="card-img-top" alt="...">
             </a>
-            <div class="card-body d-flex justify-content-between">
-              <h4 class="card-title"> Product Name </h4>
-
+            <div class="card-body d-flex justify-content-between p-0">
               <a href="ProductsDetails.php" class="btn btn-primary"> 
-                Read More 
-                <i class="far fa-arrow-alt-circle-right"></i>
+                <h6 class="card-title"> Product Name <i class="far fa-arrow-alt-circle-right"></i></h6>
               </a>
             </div>
           </div>
         </div>
 
-        <div class="col-12 col-md-6 my-3 p-2">
+        <div class="col-12 col-md-4 my-3 p-2">
           <div class="card">
             <a href="ProductsDetails.php"> 
               <img src="assets/pics/pic5.jpg" class="card-img-top" alt="...">
             </a>
-            <div class="card-body d-flex justify-content-between">
-              <h4 class="card-title"> Product Name </h4>
-
+            <div class="card-body d-flex justify-content-between p-0">
               <a href="ProductsDetails.php" class="btn btn-primary"> 
-                Read More 
-                <i class="far fa-arrow-alt-circle-right"></i>
+                <h6 class="card-title"> Product Name <i class="far fa-arrow-alt-circle-right"></i></h6>
               </a>
             </div>
           </div>
         </div>
 
-        <div class="col-12 col-md-6 my-3 p-2">
+        <div class="col-12 col-md-4 my-3 p-2">
           <div class="card">
             <a href="ProductsDetails.php"> 
               <img src="assets/pics/pic18.jpg" class="card-img-top" alt="...">
             </a>
-            <div class="card-body d-flex justify-content-between">
-              <h4 class="card-title"> Product Name </h4>
-
+            <div class="card-body d-flex justify-content-between p-0">
               <a href="ProductsDetails.php" class="btn btn-primary"> 
-                Read More 
-                <i class="far fa-arrow-alt-circle-right"></i>
+                <h6 class="card-title"> Product Name <i class="far fa-arrow-alt-circle-right"></i></h6>
               </a>
             </div>
           </div>
         </div>
 
-        <div class="col-12 col-md-6 my-3 p-2">
+        <div class="col-12 col-md-4 my-3 p-2">
           <div class="card">
             <a href="ProductsDetails.php"> 
               <img src="assets/pics/pic15.jpg" class="card-img-top" alt="...">
             </a>
-            <div class="card-body d-flex justify-content-between">
-              <h4 class="card-title"> Product Name </h4>
-
+            <div class="card-body d-flex justify-content-between p-0">
               <a href="ProductsDetails.php" class="btn btn-primary"> 
-                Read More 
-                <i class="far fa-arrow-alt-circle-right"></i>
+                <h6 class="card-title"> Product Name <i class="far fa-arrow-alt-circle-right"></i></h6>
               </a>
             </div>
           </div>

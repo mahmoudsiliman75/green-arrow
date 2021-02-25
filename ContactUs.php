@@ -12,11 +12,6 @@
 <div class="intro-img-box">
   <div class="overlay"></div>
   <img src="assets/pics/pic19.jpg" alt="Intro Img" >
-  <div class="curve">
-    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-      <path d="M600,112.77C268.63,112.77,0,65.52,0,7.23V120H1200V7.23C1200,65.52,931.37,112.77,600,112.77Z" class="shape-fill"></path>
-    </svg>
-  </div>
 </div>
 <!-- END:: INTRO IMG -->
 
@@ -26,10 +21,36 @@
     <div class="d-flex justify-content-center">
       <h2 class="sec-heading mt-5"> Get In Touch With Us </h2>
     </div>
+
+    <div class="row justify-content-center my-4 social">
+      <div class="col-1 text-center">
+        <a href="#">
+          <img src="assets/pics/icons/facebook.png">
+        </a>
+      </div>
+
+      <div class="col-1 text-center">
+        <a href="#">
+          <img src="assets/pics/icons/instagram.png">
+        </a>
+      </div>
+
+      <div class="col-1 text-center">
+        <a href="#">
+          <img src="assets/pics/icons/youtube.png">
+        </a>
+      </div>
+
+      <div class="col-1 text-center">
+        <a href="#">
+          <img src="assets/pics/icons/twitter.png">
+        </a>
+      </div>
+    </div>
     
 
     <!-- START:: FARMS ADRESSES SECTION -->
-    <div class="row justify-content-center mb-5">
+    <div class="row justify-content-center mb-5 ">
 
       <div class="col-12 col-md-6 col-lg-4 my-3 p-2">
         <div class="card p-3">

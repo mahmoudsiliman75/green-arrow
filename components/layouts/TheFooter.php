@@ -22,6 +22,27 @@
           </div>
         </div>
 
+        <div class="get-in-touch col-6 col-md-3 p-0 px-md-2"> 
+          <h5 class="my-3 text-center text-md-left"> Get In Touch With Us </h5>
+
+          <ul class="list-unstyled">
+            <li> 
+              <i class="fas fa-map-marker-alt"></i>
+              <span> El Doki, Giza, Egypt </span>
+            </li>
+
+            <li> 
+              <i class="fas fa-mobile-alt"></i>
+              <span> 01000000001 </span>
+            </li>
+
+            <li> 
+              <i class="fas fa-envelope"></i>
+              <span> NourElHooda@localhost.com </span>
+            </li>
+          </ul>
+        </div>
+
         <div class="follow-us col-12 col-md-4"> 
           <h5 class="text-center my-3"> Follow Us </h5>
           <ul class="list-unstyled">
@@ -51,30 +72,9 @@
           </ul>
         </div>
 
-        <div class="get-in-touch col-6 col-md-3 p-0 px-md-2"> 
-          <h5 class="my-3 text-center text-md-left"> Get In Touch With Us </h5>
-
-          <ul class="list-unstyled">
-            <li> 
-              <i class="fas fa-map-marker-alt"></i>
-              <span> El Doki, Giza, Egypt </span>
-            </li>
-
-            <li> 
-              <i class="fas fa-mobile-alt"></i>
-              <span> 01000000001 </span>
-            </li>
-
-            <li> 
-              <i class="fas fa-envelope"></i>
-              <span> NourElHooda@localhost.com </span>
-            </li>
-          </ul>
-        </div>
-
         <div class="copy-rights col-12 d-flex justify-content-between">
           <span> Poweered By <a href="#"> MediaServe </a> </span>
-          <span> &copy; 2021 Nourelhooda </span>
+          <span> &copy; 2021 Green Arrow </span>
         </div>
       </div>
     </div>

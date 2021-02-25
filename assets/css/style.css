@@ -9,6 +9,7 @@
   padding: 3px 10px;
   border: 2px solid #075619;
   border-radius: 5px;
+  background-color: transparent;
   color: #075619;
   font-size: 15px;
   text-transform: uppercase;
@@ -93,8 +94,8 @@
 
 * .intro-img-box {
   position: relative;
-  min-height: 350px;
-  max-height: 350px;
+  min-height: 250px;
+  max-height: 250px;
 }
 
 * .intro-img-box .overlay {
@@ -104,47 +105,12 @@
   display: block;
   width: 100%;
   height: 100%;
-  background-color: rgba(255, 255, 255, 0.2);
 }
 
 * .intro-img-box img {
   width: 100%;
-  max-height: 350px;
-  min-height: 350px;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-* .intro-img-box .curve {
-  position: relative;
-  bottom: 120px;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  background-color: transparent;
-}
-
-* .intro-img-box .curve path {
-  fill: #fff;
-}
-
-@media (max-width: 1200px) {
-  * .intro-img-box .curve {
-    bottom: 100px;
-  }
-}
-
-@media (min-width: 900px) and (max-width: 1000px) {
-  * .intro-img-box .curve {
-    bottom: 85px;
-  }
-}
-
-@media (max-width: 900px) {
-  * .intro-img-box .curve path {
-    fill: transparent;
-  }
+  max-height: 250px;
+  min-height: 250px;
 }
 
 body {
@@ -296,7 +262,8 @@ nav .lang-btn a:hover {
 }
 
 .services .card {
-  border: none;
+  padding-top: 10px;
+  border: 2px solid #075619;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -333,6 +300,15 @@ nav .lang-btn a:hover {
 
 .why-green-arrow {
   padding: 50px 0;
+}
+
+.why-green-arrow .row {
+  padding-top: 15px;
+  background: #52c234;
+  background: -webkit-gradient(linear, left bottom, left top, from(#52c234), to(#075619));
+  background: linear-gradient(to top, #52c234, #075619);
+  color: #fff;
+  border-radius: 10px;
 }
 
 .products {
@@ -372,29 +348,52 @@ nav .lang-btn a:hover {
 
 .news .card {
   position: relative;
+  border: none;
+  position: relative;
   border-radius: 10px;
 }
 
 .news .card .badge {
   position: absolute;
-  top: -10px;
-  left: 5%;
-  width: 75px;
-  height: 60px;
-  line-height: 53px;
-  background-color: #075619;
-  border-radius: 5px;
-}
-
-.news .card .badge .inner-badge {
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background: #52c234;
+  background: -webkit-gradient(linear, left top, right top, from(#52c234), to(#075619));
+  background: linear-gradient(to right, #52c234, #075619);
   color: #fff;
-  border: 1px solid #fff;
-  padding: 11px;
-  border-radius: 5px;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 15px;
 }
 
 .news .card .card-body {
+  position: relative;
+  left: 50%;
+  top: -50px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background: #fff;
+  width: 90%;
+  z-index: 999;
+  border: 2px solid #075619;
   padding: 0 15px 25px;
+  min-height: 265px;
+  max-height: 265px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .news .card .card-body h4 {
@@ -404,6 +403,31 @@ nav .lang-btn a:hover {
 .news .card .card-body p {
   color: #6d6e75;
   text-align: justify;
+}
+
+.news .card .card-body .card-link {
+  display: block;
+  width: 100%;
+  text-align: start;
+}
+
+.news .card .card-body .card-link a {
+  text-decoration: none;
+}
+
+.news .card .card-body .card-link a span {
+  color: #075619;
+}
+
+.news .card .card-body .card-link a span svg {
+  color: #555;
+}
+
+.news .card .card-body .card-link a span svg.arrow {
+  color: #075619;
+  -webkit-margin-start: 8px;
+          margin-inline-start: 8px;
+  font-size: 18px;
 }
 
 .about-us-desc {
@@ -824,50 +848,6 @@ nav .lang-btn a:hover {
   color: #fff;
 }
 
-.news-page {
-  padding: 50px 0;
-}
-
-.news-page h2::before, .news-page h2::after {
-  width: 12%;
-}
-
-.news-page .card {
-  position: relative;
-  border-radius: 10px;
-}
-
-.news-page .card .badge {
-  position: absolute;
-  top: -10px;
-  left: 5%;
-  width: 75px;
-  height: 60px;
-  line-height: 53px;
-  background-color: #075619;
-  border-radius: 5px;
-}
-
-.news-page .card .badge .inner-badge {
-  color: #fff;
-  border: 1px solid #fff;
-  padding: 11px;
-  border-radius: 5px;
-}
-
-.news-page .card .card-body {
-  padding: 0 15px 25px;
-}
-
-.news-page .card .card-body h4 {
-  color: #075619;
-}
-
-.news-page .card .card-body p {
-  color: #6d6e75;
-  text-align: justify;
-}
-
 .article-details {
   padding: 50px 0;
 }
@@ -1003,6 +983,15 @@ nav .lang-btn a:hover {
   background-color: #075619;
 }
 
+.seasonal .tab-content .tab-pane {
+  border: 2px solid #075619;
+  padding: 15px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 3px 1px #075619;
+  -o-box-shadow: 0 0 3px 1px #075619;
+  box-shadow: 0 0 3px 1px #075619;
+}
+
 .seasonal .search-box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1057,8 +1046,18 @@ nav .lang-btn a:hover {
   padding: 50px 0;
 }
 
-.contact-us-page h2::before, .contact-us-page h2::after {
-  width: 6%;
+.contact-us-page .social img {
+  max-width: 60px;
+  min-width: 60px;
+  min-height: 60px;
+  min-height: 60px;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.contact-us-page .social img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .contact-us-page .card {

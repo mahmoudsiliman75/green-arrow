@@ -12,11 +12,6 @@
 <div class="intro-img-box">
   <div class="overlay"></div>
   <img src="assets/pics/pic1.jpg" alt="Intro Img" >
-  <div class="curve">
-    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-      <path d="M600,112.77C268.63,112.77,0,65.52,0,7.23V120H1200V7.23C1200,65.52,931.37,112.77,600,112.77Z" class="shape-fill"></path>
-    </svg>
-  </div>
 </div>
 <!-- START:: INTRO IMG -->
 
@@ -57,7 +52,7 @@
 <div class="goals">
   <div class="container">
     <div class="d-flex justify-content-center">
-      <h2 class="sec-heading text-center mt-3"> Our Vision </h2>
+      <h2 class="sec-heading text-center mt-3"> Our Mission </h2>
     </div>
     <p class="my-4"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum laudantium quisquam aspernatur repellat illum eius! Impedit perspiciatis accusamus inventore animi ullam iusto ipsam, enim blanditiis magnam. Ipsum enim error fuga.
     Dolorum laudantium quisquam aspernatur repellat illum eius! Impedit perspiciatis accusamus inventore animi ullam iusto ipsam, enim blanditiis magnam. Ipsum enim error fuga.  Ipsum enim error fuga.
