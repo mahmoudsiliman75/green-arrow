@@ -176,6 +176,79 @@ nav .lang-btn a:hover {
   background-color: #075619;
 }
 
+nav .mobile-menu-btn .menu-btn:focus {
+  outline: none;
+}
+
+nav .mobile-menu-btn .menu-btn svg {
+  font-size: 25px;
+  color: #075619;
+}
+
+.mobile-menu-content {
+  margin-bottom: 0;
+}
+
+.mobile-menu-content ul {
+  background-color: #f1f1f1;
+  padding: 10px;
+  margin-bottom: 0;
+}
+
+.mobile-menu-content ul li {
+  overflow: hidden;
+  padding: 10px 0;
+  position: relative;
+}
+
+.mobile-menu-content ul li a {
+  color: #666;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.mobile-menu-content ul li a::before {
+  content: "";
+  position: absolute;
+  left: -100%;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #075619;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.mobile-menu-content ul li a:hover, .mobile-menu-content ul li a.active {
+  color: #075619;
+}
+
+.mobile-menu-content ul li a:hover:hover, .mobile-menu-content ul li a.active:hover {
+  text-decoration: none;
+  color: #075619;
+}
+
+.mobile-menu-content ul li a:hover::before, .mobile-menu-content ul li a.active::before {
+  left: 0;
+}
+
+.mobile-menu-content ul li a:hover::before {
+  left: 0;
+}
+
+@media (min-width: 990px) {
+  .mobile-menu-btn {
+    display: none !important;
+  }
+}
+
+@media (max-width: 990px) {
+  .nav-links {
+    display: none;
+  }
+}
+
 .carousel .carousel-indicators li.active {
   background-color: #075619 !important;
 }
@@ -198,10 +271,11 @@ nav .lang-btn a:hover {
 
 .welcome-sec .welcome-img {
   max-width: 540px;
-  max-height: 360px;
+  max-height: 100%;
 }
 
 .welcome-sec .welcome-img img {
+  max-height: auto;
   border-radius: 10px;
 }
 
@@ -297,11 +371,10 @@ nav .lang-btn a:hover {
 
 .why-green-arrow .row {
   padding-top: 15px;
-  background: #52c234;
-  background: -webkit-gradient(linear, left bottom, left top, from(#52c234), to(#075619));
-  background: linear-gradient(to top, #52c234, #075619);
-  color: #fff;
-  border-radius: 10px;
+  background: #075619;
+  background: -webkit-gradient(linear, left top, left bottom, from(#075619), to(#f1f1f1));
+  background: linear-gradient(to bottom, #075619, #f1f1f1);
+  color: #075619;
 }
 
 .products {
@@ -352,9 +425,7 @@ nav .lang-btn a:hover {
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  background: #52c234;
-  background: -webkit-gradient(linear, left top, right top, from(#52c234), to(#075619));
-  background: linear-gradient(to right, #52c234, #075619);
+  background-color: #075619;
   color: #fff;
   padding: 10px;
   font-size: 15px;
@@ -429,10 +500,11 @@ nav .lang-btn a:hover {
 
 .about-us-desc .about-img {
   max-width: 540px;
-  max-height: 360px;
+  max-height: 100%;
 }
 
 .about-us-desc .about-img img {
+  max-height: auto;
   border-radius: 10px;
 }
 
@@ -851,20 +923,15 @@ nav .lang-btn a:hover {
 
 .article-details .article-details-img .badge {
   position: absolute;
-  top: -10px;
-  left: 5%;
-  width: 75px;
-  height: 60px;
-  line-height: 53px;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
   background-color: #075619;
-  border-radius: 5px;
-}
-
-.article-details .article-details-img .badge .inner-badge {
   color: #fff;
-  border: 1px solid #fff;
-  padding: 11px;
-  border-radius: 5px;
+  font-size: 18px;
+  border-radius: 30px;
+  padding: 15px;
 }
 
 .article-details .article-details-img img {

@@ -47,7 +47,9 @@
     <div class="d-flex justify-content-center">
       <h2 class="sec-heading text-center mb-5"> Why Import With Us ? </h2>
     </div>
-    
+  </div>
+
+  <div class="container-fluid">
     <div class="row justify-content-center">
       <div class="col-6 col-md-3 my-3 text-center"> 
         <img src="assets/pics/icons/team.png">
@@ -64,6 +66,7 @@
         <h4> Title </h4>
       </div>
     </div>
+  </div>
   </div>
 </div>
 <!-- END:: WHY SECTION -->

@@ -34,22 +34,22 @@
           <h3 class="text-center"> Categories </h3>
           <form method="GET" class="check-boxes">
             <div class="col-12 form-group form-check">
-              <input type="checkbox" class="form-check-input" id="category1">
+              <input type="checkbox" class="form-check-input" id="category1" disabled>
               <label class="form-check-label" for="category1">Fresh Fruits & Vegetables</label>
             </div>
 
             <div class="col-12 form-group form-check">
-              <input type="checkbox" class="form-check-input" id="category2" checked>
+              <input type="checkbox" class="form-check-input" id="category2" checked disabled>
               <label class="form-check-label" for="category2"> Frozen Fruits </label>
             </div>
 
             <div class="col-12 form-group form-check">
-              <input type="checkbox" class="form-check-input" id="category3">
+              <input type="checkbox" class="form-check-input" id="category3" disabled>
               <label class="form-check-label" for="category3"> Canned Food </label>
             </div>
 
             <div class="col-12 form-group form-check">
-              <input type="checkbox" class="form-check-input" id="category4">
+              <input type="checkbox" class="form-check-input" id="category4" disabled>
               <label class="form-check-label" for="category4"> Foodstuff & Herbs </label>
             </div>
           </form>

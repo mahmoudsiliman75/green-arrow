@@ -219,6 +219,73 @@ nav {
       }
     }
   }
+
+  .mobile-menu-btn {
+    .menu-btn {
+      &:focus{
+        outline: none;
+      }
+      svg {
+        font-size: 25px;
+        color: $mainColor;
+      }
+    }
+  }
+}
+
+.mobile-menu-content {
+  margin-bottom: 0;
+  ul {
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin-bottom: 0;
+    li {
+      overflow: hidden;
+      padding: 10px 0;
+      position: relative;
+      a {
+        color: #666;
+        @include transitioning();
+        &::before {
+          content: "";
+          position: absolute;
+          left: -100%;
+          bottom: 0;
+          display: block;
+          width: 100%;
+          height: 2px;
+          background-color: $mainColor;
+          @include transitioning();
+        }
+        &:hover,
+        &.active {
+          color: $mainColor;
+          &:hover {
+            text-decoration: none;
+            color: $mainColor;
+          }
+          &::before {
+            left: 0;
+          }
+        }
+        &:hover::before {
+          left: 0;
+        }
+      }
+    }
+  }
+}
+
+@media ( min-width: 990px ) {
+  .mobile-menu-btn {
+    display: none !important;
+  }
+}
+
+@media ( max-width: 990px ) {
+  .nav-links {
+    display: none;
+  }
 }
 // END:: NAVBAR STYLES
 
@@ -249,8 +316,9 @@ nav {
   padding: $sectionPadding;
   .welcome-img {
     max-width: 540px;
-    max-height: 360px;
+    max-height: 100%;
     img {
+      max-height: auto;
       @include borderRadius();
     }
   }
@@ -342,11 +410,10 @@ nav {
   padding: $sectionPadding;
   .row {
     padding-top: 15px;
-    background: #52c234;
-    background: -webkit-linear-gradient(to top, #52c234, $mainColor);
-    background: linear-gradient(to top, #52c234, $mainColor);
-    color: #fff;
-    @include borderRadius();
+    background: $mainColor;
+    background: -webkit-linear-gradient(to bottom, $mainColor, #f1f1f1, #f1f1f1);
+    background: linear-gradient(to bottom, $mainColor, #f1f1f1);
+    color: $mainColor;
   }
 }
 // END:: WHY GREEN ARROW SECTION STYLES
@@ -390,9 +457,7 @@ nav {
       top: 0;
       left: 50%;
       transform: translateX(-50%);
-      background: #52c234;
-      background: -webkit-linear-gradient(to right, #52c234, $mainColor);
-      background: linear-gradient(to right, #52c234, $mainColor);
+      background-color: $mainColor;
       color: #fff;
       padding: 10px;
       font-size: 15px;
@@ -450,8 +515,9 @@ nav {
   padding: $sectionPadding;
   .about-img {
     max-width: 540px;
-    max-height: 360px;
+    max-height: 100%;
     img {
+      max-height: auto;
       @include borderRadius();
     }
   }
@@ -852,19 +918,14 @@ nav {
     position: relative;
     .badge {
       position: absolute;
-      top: -10px;
-      left: 5%;
-      width: 75px;
-      height: 60px;
-      line-height: 53px;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
       background-color: $mainColor;
-      border-radius: 5px;
-      .inner-badge {
-        color: #fff;
-        border: 1px solid #fff;
-        padding: 11px;
-        border-radius: 5px;
-      }
+      color: #fff;
+      font-size: 18px;
+      border-radius: 30px;
+      padding: 15px;
     }
     img {
       @include borderRadius();

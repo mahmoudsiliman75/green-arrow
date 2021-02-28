@@ -10,6 +10,13 @@ $(document).ready(function() {
   // });
   // END:: STIKY NAVBAR
 
+  // START:: MOBILE MENU
+  $('.mobile-menu-content').css('display', 'none');
+  $(".menu-btn").on('click', () => {
+    $('.mobile-menu-content').toggle();
+  });
+  // END:: MOBILE MENU
+
   // START:: LIGHTBOX
   lightbox.option({
     'resizeDuration': 200,

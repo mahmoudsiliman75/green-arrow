@@ -238,6 +238,9 @@
     <div class="d-flex justify-content-center">
       <h2 class="sec-heading mb-5"> Why Green Arrow ? </h2>
     </div>
+  </div>
+
+  <div class="container-fluid">
     <div class="row">
 
       <div class="investor-info col-12">

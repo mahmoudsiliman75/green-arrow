@@ -44,6 +44,7 @@
     </a>
   </div>
 
+  <!-- START:: LARGE SCREEN NAV BAR -->
   <div class="nav-links">
     <ul class="menu-container list-unstyled d-flex align-items-center ">
       <li class="menu-item mx-3"> 
@@ -75,11 +76,59 @@
       </li>
     </ul>
   </div>
+  <!-- END:: LARGE SCREEN NAV BAR -->
 
-  <div class="lang-btn d-flex align-items-center">
-    <a href="#" data-toggle="tooltip" data-placement="bottom" title="Change Language"> 
-      ع 
-    </a>
+  <div  class="d-flex justify-content-center">
+    <!-- START:: LANGUAGE BUTTON -->
+    <div class="lang-btn d-flex align-items-center mx-4">
+      <a href="#" data-toggle="tooltip" data-placement="bottom" title="Change Language"> 
+        ع 
+      </a>
+    </div>
+    <!-- END:: LANGUAGE BUTTON -->
+
+    <!-- START:: MOBILE MENU BUTTON -->
+    <div class="mobile-menu-btn d-flex align-items-center">
+      <button class="menu-btn btn">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+    <!-- END:: MOBILE MENU BUTTON -->
   </div>
+
 </nav>
 <!-- END:: NAVBAR -->
+
+<!-- START:: MOBILE MENU -->
+<div class="mobile-menu-content">
+  <ul class="list-unstyled d-flex flex-column align-items-center justify-content-center">
+    <li class="menu-item mx-3"> 
+      <a href="index.php" class="active"> Home </a> 
+    </li>
+
+    <li class="menu-item mx-3"> 
+      <a href="AboutUs.php"> About Us </a> 
+    </li>
+
+    <li class="menu-item mx-3"> 
+      <a href="Quality.php"> Quality & certification </a> 
+    </li>
+
+    <li class="menu-item mx-3"> 
+      <a href="Products.php"> Products </a> 
+    </li>
+
+    <li class="menu-item mx-3"> 
+      <a href="SeasonalCalender.php"> Seasonal Calender </a> 
+    </li>
+
+    <li class="menu-item mx-3"> 
+      <a href="AllNews.php"> News </a> 
+    </li>
+
+    <li class="menu-item mx-3"> 
+      <a href="ContactUs.php"> Contact Us </a> 
+    </li>
+  </ul>
+</div>
+<!-- END:: MOBILE MENU -->
