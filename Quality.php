@@ -23,12 +23,12 @@
     <div class="d-flex justify-content-center mb-3">
       <h2 class="sec-heading"> Our Certificates </h2>
     </div>
-    <div class="row">
+    <div class="row justify-content-center">
 
-      <div class="quality-info d-flex align-items-center col-12 col-md-6 mb-5">
+      <div class="quality-info d-flex align-items-start col-12 col-md-6 mb-5">
         <div class="row align-items-center justify-content-center">
 
-          <p class="mb-4">
+          <p class="mb-4 px-2">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             Harum dignissimos sequi numquam vel, quasi praesentium deleniti ducimus nostrum. 
             Assumenda molestiae officiis harum saepe eius sint omnis tempora architecto sit esse.
@@ -78,8 +78,8 @@
     </div>
     <div class="row align-items-center">
 
-      <div class="quality-info d-flex align-items-center col-12 col-md-6 mb-5 mb-md-0">
-          <p class="mb-4">
+      <div class="quality-info d-flex align-items-start col-12 col-md-6 mb-5 mb-md-0">
+          <p class="mb-4 px-2">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             Harum dignissimos sequi numquam vel, quasi praesentium deleniti ducimus nostrum. 
             Assumenda molestiae officiis harum saepe eius sint omnis tempora architecto sit esse.

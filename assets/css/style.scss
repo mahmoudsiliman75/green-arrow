@@ -32,7 +32,7 @@
 $mainColor: #075619;
 $darkColor: #212121;
 $textColor: #6d6e75;
-$sectionPadding: 50px 0;
+$sectionPadding: 30px 0;
 // END:: SASS VARIABLES
 
 // START:: GLOBAL STYLES
@@ -325,6 +325,8 @@ nav {
 
   .welcome-text {
     h2 {
+      width: 100%;
+      text-align: start;
       color: $mainColor;
       font-weight: 400;
     }
@@ -378,6 +380,7 @@ nav {
     padding-top: 10px;
     border: 2px solid $mainColor;
     align-items: center;
+    border-radius: 15px;
     img {
       min-width: 250px;
       max-width: 250px; 
@@ -389,7 +392,7 @@ nav {
       position: relative;
       text-align: center;
       h4 {
-        color: $textColor;
+        color: $mainColor;
       }
       a {
         margin-top: 10px;
@@ -409,10 +412,9 @@ nav {
 .why-green-arrow {
   padding: $sectionPadding;
   .row {
-    padding-top: 15px;
     background: $mainColor;
-    background: -webkit-linear-gradient(to bottom, $mainColor, #f1f1f1, #f1f1f1);
-    background: linear-gradient(to bottom, $mainColor, #f1f1f1);
+    background: -webkit-linear-gradient(to bottom, #24923d , #fff);
+    background: linear-gradient(to bottom, #24923d, #fff);
     color: $mainColor;
   }
 }
@@ -538,6 +540,7 @@ nav {
 
 .goals {
   padding: $sectionPadding;
+  padding-bottom: 0;
   p {
     color: $textColor;
     text-align: justify;
@@ -734,6 +737,9 @@ nav {
 // START:: PRODUCT DETAILS PAGE STYLES
 .product-details {
   padding: $sectionPadding;
+  h2{
+    color: $mainColor;
+  }
   .img-box {
     @include borderRadius();
     img {
@@ -746,6 +752,7 @@ nav {
   .filters-box {
     .filter {
       margin-bottom: 15px;
+      padding: 15px;
       h3 {
         color: $mainColor;
         margin-bottom: 15px;
@@ -753,6 +760,7 @@ nav {
     }
     .product-titles {
       p {
+        padding-inline-start: 15px;
         color: $mainColor;
         svg, 
         span {
@@ -876,6 +884,7 @@ nav {
     }
 
     .owl-nav {
+      direction: ltr !important;
       position: relative;
       .owl-prev {
         width: 35px;

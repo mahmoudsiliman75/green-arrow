@@ -28,6 +28,7 @@ $(document).ready(function() {
   $('#gallery-slider').owlCarousel({
     dots: false,
     loop:true,
+    rtl:true,
     margin:10,
     responsiveClass:true,
     responsive:{
@@ -52,6 +53,7 @@ $(document).ready(function() {
   $('#videos-slider').owlCarousel({
     dots: false,
     loop:true,
+    rtl:true,
     margin:10,
     responsiveClass:true,
     responsive:{

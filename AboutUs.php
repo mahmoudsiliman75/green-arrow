@@ -30,13 +30,13 @@
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum laudantium quisquam aspernatur repellat illum eius! Impedit perspiciatis accusamus inventore animi ullam iusto ipsam, enim blanditiis magnam. Ipsum enim error fuga.
           Dolorum laudantium quisquam aspernatur repellat illum eius.
         </p>
-        <div class="row">
-          <div class="col-6 mb-3"> 
+        <div class="col-12 row justify-content-between">
+          <div class="col-4 mb-3"> 
             <img src="assets/pics/icons/chart.png" alt="">
             <h5 class="my-2"> 100 Year Of Experience </h5>
           </div>
 
-          <div class="col-6 mb-3"> 
+          <div class="col-4 mb-3"> 
             <img src="assets/pics/icons/idea.png" alt="">
             <h5 class="my-2"> +20 Clients </h5>
           </div>
@@ -49,7 +49,7 @@
 <!-- START:: ABOUT US DESCRIPTION SECTION -->
 
 <!-- START:: OUR GOALS SECTIONS -->
-<div class="goals">
+<div class="goals pt-0">
   <div class="container">
     <div class="d-flex justify-content-center">
       <h2 class="sec-heading text-center mt-3"> Our Mission </h2>

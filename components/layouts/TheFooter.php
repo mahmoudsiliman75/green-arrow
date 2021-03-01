@@ -6,7 +6,7 @@
           <img src="assets/pics/logo.png">
         </div>
 
-        <div class="short-cuts col-6 col-md-3"> 
+        <div class="short-cuts col-6 col-md-4"> 
           <div>
             <a href="index.php"> Home </a>
             <a href="AboutUs.php"> About Us </a>
@@ -23,7 +23,7 @@
         </div>
 
         <div class="get-in-touch col-6 col-md-3 p-0 px-md-2"> 
-          <h5 class="my-3 text-center text-md-left"> Get In Touch With Us </h5>
+          <h5 class="my-3 text-center text-md-left"> Contact Us </h5>
 
           <ul class="list-unstyled">
             <li> 
@@ -43,7 +43,7 @@
           </ul>
         </div>
 
-        <div class="follow-us col-12 col-md-4"> 
+        <div class="follow-us col-12 col-md-3"> 
           <h5 class="text-center my-3"> Follow Us </h5>
           <ul class="list-unstyled">
             <li> 

@@ -21,10 +21,10 @@
 <div class="article-details">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-6">
+      <div class="col-12 col-md-6">
         <div class="article-details-img">
           <span class="badge"> 
-            <span class="inner-badge"> 20, Jan </span> 
+             20, Jan
           </span>
           <img src="assets/pics/pic22.jpg" alt="Product Details Img" class="img-fluid">
           <h4 class="d-flex justify-content-between mt-3"> 

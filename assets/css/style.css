@@ -266,7 +266,7 @@ nav .mobile-menu-btn .menu-btn svg {
 }
 
 .welcome-sec {
-  padding: 50px 0;
+  padding: 30px 0;
 }
 
 .welcome-sec .welcome-img {
@@ -280,6 +280,8 @@ nav .mobile-menu-btn .menu-btn svg {
 }
 
 .welcome-sec .welcome-text h2 {
+  width: 100%;
+  text-align: start;
   color: #075619;
   font-weight: 400;
 }
@@ -291,7 +293,7 @@ nav .mobile-menu-btn .menu-btn svg {
 }
 
 .quality {
-  padding: 50px 0;
+  padding: 30px 0;
 }
 
 .quality .quality-info h2 {
@@ -325,7 +327,7 @@ nav .mobile-menu-btn .menu-btn svg {
 }
 
 .services {
-  padding: 50px 0;
+  padding: 30px 0;
 }
 
 .services .card {
@@ -334,6 +336,7 @@ nav .mobile-menu-btn .menu-btn svg {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border-radius: 15px;
 }
 
 .services .card img {
@@ -350,7 +353,7 @@ nav .mobile-menu-btn .menu-btn svg {
 }
 
 .services .card .card-body h4 {
-  color: #6d6e75;
+  color: #075619;
 }
 
 .services .card .card-body a {
@@ -366,19 +369,18 @@ nav .mobile-menu-btn .menu-btn svg {
 }
 
 .why-green-arrow {
-  padding: 50px 0;
+  padding: 30px 0;
 }
 
 .why-green-arrow .row {
-  padding-top: 15px;
   background: #075619;
-  background: -webkit-gradient(linear, left top, left bottom, from(#075619), to(#f1f1f1));
-  background: linear-gradient(to bottom, #075619, #f1f1f1);
+  background: -webkit-gradient(linear, left top, left bottom, from(#24923d), to(#fff));
+  background: linear-gradient(to bottom, #24923d, #fff);
   color: #075619;
 }
 
 .products {
-  padding: 50px 0;
+  padding: 30px 0;
 }
 
 .products a {
@@ -409,7 +411,7 @@ nav .mobile-menu-btn .menu-btn svg {
 }
 
 .news {
-  padding: 50px 0;
+  padding: 30px 0;
 }
 
 .news .card {
@@ -495,7 +497,7 @@ nav .mobile-menu-btn .menu-btn svg {
 }
 
 .about-us-desc {
-  padding: 50px 0;
+  padding: 30px 0;
 }
 
 .about-us-desc .about-img {
@@ -520,7 +522,8 @@ nav .mobile-menu-btn .menu-btn svg {
 }
 
 .goals {
-  padding: 50px 0;
+  padding: 30px 0;
+  padding-bottom: 0;
 }
 
 .goals p {
@@ -531,7 +534,7 @@ nav .mobile-menu-btn .menu-btn svg {
 }
 
 .comp-heighlight {
-  padding: 50px 0;
+  padding: 30px 0;
 }
 
 .comp-heighlight .sec-heading::before, .comp-heighlight .sec-heading::after {
@@ -539,7 +542,7 @@ nav .mobile-menu-btn .menu-btn svg {
 }
 
 .projects-page {
-  padding: 50px 0;
+  padding: 30px 0;
 }
 
 .projects-page .card {
@@ -582,7 +585,7 @@ nav .mobile-menu-btn .menu-btn svg {
 }
 
 .project-details {
-  padding: 50px 0;
+  padding: 30px 0;
 }
 
 .project-details .project-details-img img {
@@ -601,7 +604,7 @@ nav .mobile-menu-btn .menu-btn svg {
 }
 
 .why-sec {
-  padding: 50px 0;
+  padding: 30px 0;
 }
 
 .why-sec h2::before, .why-sec h2::after {
@@ -609,7 +612,7 @@ nav .mobile-menu-btn .menu-btn svg {
 }
 
 .videos {
-  padding: 50px 0;
+  padding: 30px 0;
 }
 
 .videos .owl-carousel .videos-slider-item iframe {
@@ -676,7 +679,7 @@ nav .mobile-menu-btn .menu-btn svg {
 }
 
 .products-page {
-  padding: 50px 0;
+  padding: 30px 0;
 }
 
 .products-page .filters-box .filter {
@@ -720,7 +723,11 @@ nav .mobile-menu-btn .menu-btn svg {
 }
 
 .product-details {
-  padding: 50px 0;
+  padding: 30px 0;
+}
+
+.product-details h2 {
+  color: #075619;
 }
 
 .product-details .img-box {
@@ -735,6 +742,7 @@ nav .mobile-menu-btn .menu-btn svg {
 
 .product-details .filters-box .filter {
   margin-bottom: 15px;
+  padding: 15px;
 }
 
 .product-details .filters-box .filter h3 {
@@ -743,6 +751,8 @@ nav .mobile-menu-btn .menu-btn svg {
 }
 
 .product-details .filters-box .product-titles p {
+  -webkit-padding-start: 15px;
+          padding-inline-start: 15px;
   color: #075619;
 }
 
@@ -754,7 +764,7 @@ nav .mobile-menu-btn .menu-btn svg {
 }
 
 .product-details .product-info {
-  padding: 50px 0;
+  padding: 30px 0;
 }
 
 .product-details .product-info h3 {
@@ -773,7 +783,7 @@ nav .mobile-menu-btn .menu-btn svg {
 }
 
 .heighlights {
-  padding: 50px 0;
+  padding: 30px 0;
 }
 
 .heighlights h2::before, .heighlights h2::after {
@@ -781,7 +791,7 @@ nav .mobile-menu-btn .menu-btn svg {
 }
 
 .integerated {
-  padding: 50px 0;
+  padding: 30px 0;
 }
 
 .integerated h2::before, .integerated h2::after {
@@ -848,7 +858,7 @@ nav .mobile-menu-btn .menu-btn svg {
 }
 
 .products-gallery {
-  padding: 50px 0;
+  padding: 30px 0;
 }
 
 .products-gallery .owl-carousel a {
@@ -878,6 +888,7 @@ nav .mobile-menu-btn .menu-btn svg {
 }
 
 .products-gallery .owl-carousel .owl-nav {
+  direction: ltr !important;
   position: relative;
 }
 
@@ -914,7 +925,7 @@ nav .mobile-menu-btn .menu-btn svg {
 }
 
 .article-details {
-  padding: 50px 0;
+  padding: 30px 0;
 }
 
 .article-details .article-details-img {
@@ -962,7 +973,7 @@ nav .mobile-menu-btn .menu-btn svg {
 }
 
 .rel-videos {
-  padding: 50px 0;
+  padding: 30px 0;
 }
 
 .rel-videos h2::before, .rel-videos h2::after {
@@ -1013,7 +1024,7 @@ nav .mobile-menu-btn .menu-btn svg {
 }
 
 .seasonal {
-  padding: 50px 0;
+  padding: 30px 0;
 }
 
 .seasonal h2::before, .seasonal h2::after {
@@ -1085,7 +1096,7 @@ nav .mobile-menu-btn .menu-btn svg {
 }
 
 .gallery-page {
-  padding: 50px 0;
+  padding: 30px 0;
 }
 
 .gallery-page .card {
@@ -1103,7 +1114,7 @@ nav .mobile-menu-btn .menu-btn svg {
 }
 
 .contact-us-page {
-  padding: 50px 0;
+  padding: 30px 0;
 }
 
 .contact-us-page .social img {

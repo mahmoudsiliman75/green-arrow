@@ -46,8 +46,8 @@
         <img class="img-fluid" src="assets/pics/pic1.jpg" alt="Welcome Section Img">
       </div>
 
-      <div class="welcome-text col-12 col-md-6 d-flex flex-column justify-content-center align-items-center">
-        <h2 class="text-center mt-3"> About Green Arrow </h2>
+      <div class="welcome-text col-12 col-md-6 d-flex flex-column justify-content-start align-items-center">
+        <h2 class=""> About Green Arrow </h2>
         <p class="my-4"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum laudantium quisquam aspernatur repellat illum eius! Impedit perspiciatis accusamus inventore animi ullam iusto ipsam, enim blanditiis magnam. Ipsum enim error fuga.
         Dolorum laudantium quisquam aspernatur repellat illum eius! Impedit perspiciatis accusamus inventore animi ullam iusto ipsam, enim blanditiis magnam. Ipsum enim error fuga. </p>
 
@@ -70,7 +70,7 @@
     </div>
     <div class="row justify-content-center">
 
-      <div class="col-12 col-md-6 col-lg-4 my-3 p-2">
+      <div class="col-12 col-md-6 col-lg-3 my-3 p-2">
         <div class="card">
           <a href="ServiceDetails.php"> 
             <img src="assets/pics/pic8.jpg" class="card-img-top" alt="...">
@@ -85,7 +85,7 @@
         </div>
       </div>
 
-      <div class="col-12 col-md-6 col-lg-4 my-3 p-2">
+      <div class="col-12 col-md-6 col-lg-3 my-3 p-2">
         <div class="card">
           <a href="ServiceDetails.php"> 
             <img src="assets/pics/pic11.jpg" class="card-img-top" alt="...">
@@ -100,7 +100,7 @@
         </div>
       </div>
 
-      <div class="col-12 col-md-6 col-lg-4 my-3 p-2">
+      <div class="col-12 col-md-6 col-lg-3 my-3 p-2">
         <div class="card">
           <a href="ServiceDetails.php"> 
             <img src="assets/pics/pic3.jpg" class="card-img-top" alt="...">
@@ -126,12 +126,12 @@
     <div class="d-flex justify-content-center mb-3">
       <h2 class="sec-heading"> Quality & Certificates </h2>
     </div>
-    <div class="row">
+    <div class="row justify-content-center">
 
-      <div class="quality-info d-flex align-items-center col-12 col-md-6 mb-5">
+      <div class="quality-info d-flex align-items-start col-12 col-md-6 mb-5">
         <div class="row align-items-center justify-content-center">
 
-          <h2 class="mb-5 col-12"> We Only Do Our Best ! </h2>
+          <h2 class="mb-3 p-0 col-12"> We Only Do Our Best ! </h2>
           <p class="mb-4">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             Harum dignissimos sequi numquam vel, quasi praesentium deleniti ducimus nostrum. 
@@ -183,7 +183,7 @@
     </div>
     <div class="row justify-content-center">
 
-      <div class="col-6 col-md-3 my-3 p-2">
+      <div class="col-12 col-md-3 my-3 p-2">
         <a href="ProductsDetails.php">
           <div class="card">
             <img src="assets/pics/pic19.jpg" class="card-img-top" alt="...">
@@ -194,7 +194,7 @@
         </a>
       </div>
 
-      <div class="col-6 col-md-3 my-3 p-2">
+      <div class="col-12 col-md-3 my-3 p-2">
         <a href="ProductsDetails.php">
           <div class="card">
             <img src="assets/pics/pic15.jpg" class="card-img-top" alt="...">
@@ -205,7 +205,7 @@
         </a>
       </div>
 
-      <div class="col-6 col-md-3 my-3 p-2">
+      <div class="col-12 col-md-3 my-3 p-2">
         <a href="ProductsDetails.php">
           <div class="card">
             <img src="assets/pics/pic13.jpg" class="card-img-top" alt="...">
@@ -216,7 +216,7 @@
         </a>
       </div>
 
-      <div class="col-6 col-md-3 my-3 p-2">
+      <div class="col-12 col-md-3 my-3 p-2">
         <a href="ProductsDetails.php">
           <div class="card">
             <img src="assets/pics/pic9.jpg" class="card-img-top" alt="...">

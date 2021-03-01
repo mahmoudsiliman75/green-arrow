@@ -18,10 +18,10 @@
 <!-- START:: PAGE CONTENT -->
 <div class="product-details">
   <div class="container">
-    <div class="row justify-content-around">
+    <div class="row justify-content-between">
 
       <!-- START:: PRODUCT -->
-      <div class="col-12 col-md-6 row">
+      <div class="col-12 col-md-8 row">
         <div class="img-box">
           <img src="assets/pics/pic15.jpg">
         </div>
@@ -31,7 +31,9 @@
       <!-- START:: FILTERS -->
       <div class="filters-box col-12 col-md-4">
         <div class="filter border-bottom">
-          <h3 class="text-center"> Categories </h3>
+          <div class="d-flex align-items-center justify-content-start">
+            <h3 class="text-center sec-heading"> Categories </h3>
+          </div>
           <form method="GET" class="check-boxes">
             <div class="col-12 form-group form-check">
               <input type="checkbox" class="form-check-input" id="category1" disabled>
@@ -66,7 +68,7 @@
             January, June, July 
           </p>
         </div>
-        <div class="col-12 text-center">
+        <div class="col-12 d-flex justify-content-end">
           <?php $link = 'ContactUs.php'; $title = 'Contact Us' ?>
           <?php include(INC.'/ui/MainBtn.php')?>
         </div>
@@ -75,8 +77,8 @@
 
       <!-- START:: PROJECCT INFO SECTION -->
       <div class="product-info">
-        <h3> Product Name </h3>
-        <p class="lead">
+        <h3 class="px-2"> Product Name </h3>
+        <p class="lead px-2">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore reiciendis nostrum culpa odio, fugiat, repellendus deleniti saepe delectus consequuntur ratione qui dolorem explicabo voluptatum harum dolores ipsum commodi. Officia, quia.
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore reiciendis nostrum culpa odio, fugiat, repellendus deleniti saepe delectus consequuntur ratione qui dolorem explicabo voluptatum harum dolores ipsum commodi. Officia, quia.
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore reiciendis nostrum culpa odio, fugiat, repellendus deleniti saepe delectus consequuntur ratione qui dolorem explicabo voluptatum harum dolores ipsum commodi. Officia, quia.

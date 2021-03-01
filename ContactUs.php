@@ -23,25 +23,25 @@
     </div>
 
     <div class="row justify-content-center my-4 social">
-      <div class="col-1 text-center">
+      <div class="col-3 col-md-1 text-center">
         <a href="#">
           <img src="assets/pics/icons/facebook.png">
         </a>
       </div>
 
-      <div class="col-1 text-center">
+      <div class="col-3 col-md-1 text-center">
         <a href="#">
           <img src="assets/pics/icons/instagram.png">
         </a>
       </div>
 
-      <div class="col-1 text-center">
+      <div class="col-3 col-md-1 text-center">
         <a href="#">
           <img src="assets/pics/icons/youtube.png">
         </a>
       </div>
 
-      <div class="col-1 text-center">
+      <div class="col-3 col-md-1 text-center">
         <a href="#">
           <img src="assets/pics/icons/twitter.png">
         </a>
@@ -128,8 +128,10 @@
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110532.89549083744!2d31.30329406893522!3d30.032468600716175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583c1380cba7ef%3A0xd541260e9e06978d!2sNasr%20City%2C%20Cairo%20Governorate!5e0!3m2!1sen!2seg!4v1601175174423!5m2!1sen!2seg" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
       </div>
 
-      <div class="col-12 col-md-6"> 
-          <h4 class="small-sec-heading text-center my-3"> Write Us A Message </h4>
+      <div class="col-12 col-md-6">
+          <div class="d-flex align-items-center justify-content-start">
+            <h4 class="sec-heading my-3"> Write Us A Message </h4>
+          </div>
           <form>
             <div class="row">
               <div class="col-12 col-md-6 p-2">
